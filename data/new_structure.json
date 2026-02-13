@@ -1,0 +1,253 @@
+{
+  "nodes": {
+    "Category": [
+      {
+        "id": "cat_gonggong",
+        "name": "公共科目",
+        "code": "GONGGONG",
+        "description": "公务员考试公共科目，包括行测和申论",
+        "order": 1
+      },
+      {
+        "id": "cat_zhuanye",
+        "name": "专业科目",
+        "code": "ZHUANYE",
+        "description": "特定岗位需要的专业科目考试",
+        "order": 2
+      },
+      {
+        "id": "cat_mianshi",
+        "name": "面试环节",
+        "code": "MIANSHI",
+        "description": "公务员考试面试环节",
+        "order": 3
+      }
+    ],
+    "Subject": [
+      {
+        "id": "sub_xingce",
+        "name": "行政职业能力测验",
+        "code": "XINGCE",
+        "description": "测查与公务员职业密切相关的基本素质和能力要素",
+        "exam_type": "国考,省考",
+        "order": 1
+      },
+      {
+        "id": "sub_shenlun",
+        "name": "申论",
+        "code": "SHENLUN",
+        "description": "测查从事机关工作应当具备的基本能力",
+        "exam_type": "国考,省考",
+        "order": 2
+      },
+      {
+        "id": "sub_gongan",
+        "name": "公安基础知识",
+        "code": "GONGAN",
+        "description": "公安机关人民警察职位专业科目",
+        "exam_type": "国考,省考",
+        "order": 1
+      },
+      {
+        "id": "sub_falv",
+        "name": "法律专业知识",
+        "code": "FALV",
+        "description": "法律相关岗位专业知识考试",
+        "exam_type": "省考,事业单位",
+        "order": 2
+      },
+      {
+        "id": "sub_caiwu",
+        "name": "财务管理",
+        "code": "CAIWU",
+        "description": "财务会计相关岗位专业知识考试",
+        "exam_type": "省考,事业单位",
+        "order": 3
+      },
+      {
+        "id": "sub_jisuanji",
+        "name": "计算机",
+        "code": "JISUANJI",
+        "description": "计算机相关岗位专业知识考试",
+        "exam_type": "省考,事业单位",
+        "order": 4
+      },
+      {
+        "id": "sub_jiegouhua",
+        "name": "结构化面试",
+        "code": "JIEGOUHUA",
+        "description": "按照预先设计的问题进行的标准化面试",
+        "exam_type": "国考,省考",
+        "order": 1
+      },
+      {
+        "id": "sub_wulingdao",
+        "name": "无领导小组讨论",
+        "code": "WULINGDAO",
+        "description": "考察团队协作和领导能力的面试形式",
+        "exam_type": "国考,省考",
+        "order": 2
+      }
+    ],
+    "Module": [
+      {
+        "id": "mod_yuyan",
+        "name": "言语理解与表达",
+        "code": "YUYAN",
+        "description": "考察语言理解、表达和运用能力",
+        "order": 1
+      },
+      {
+        "id": "mod_shuliang",
+        "name": "数量关系",
+        "code": "SHULIANG",
+        "description": "考察数学运算和数字推理能力",
+        "order": 2
+      },
+      {
+        "id": "mod_panduan",
+        "name": "判断推理",
+        "code": "PANDUAN",
+        "description": "考察逻辑思维和推理能力",
+        "order": 3
+      },
+      {
+        "id": "mod_ziliao",
+        "name": "资料分析",
+        "code": "ZILIAO",
+        "description": "考察对各种资料的分析处理能力",
+        "order": 4
+      },
+      {
+        "id": "mod_changshi",
+        "name": "常识判断",
+        "code": "CHANGSHI",
+        "description": "考察基本知识以及运用这些知识分析判断的能力",
+        "order": 5
+      },
+      {
+        "id": "mod_gailan",
+        "name": "归纳概括",
+        "code": "GAILAN",
+        "description": "归纳概括给定资料的主要内容",
+        "order": 1
+      },
+      {
+        "id": "mod_tichu",
+        "name": "提出对策",
+        "code": "TICHU",
+        "description": "针对问题提出解决方案",
+        "order": 2
+      },
+      {
+        "id": "mod_zonghe",
+        "name": "综合分析",
+        "code": "ZONGHE",
+        "description": "对给定资料进行深入分析",
+        "order": 3
+      },
+      {
+        "id": "mod_guandian",
+        "name": "贯彻执行",
+        "code": "GUANDIAN",
+        "description": "撰写应用文书",
+        "order": 4
+      },
+      {
+        "id": "mod_xiezuo",
+        "name": "申论写作",
+        "code": "XIEZUO",
+        "description": "撰写议论文",
+        "order": 5
+      },
+      {
+        "id": "mod_gongan_jichu",
+        "name": "公安基础理论",
+        "code": "GONGAN_JICHU",
+        "description": "公安工作的基本理论知识",
+        "order": 1
+      },
+      {
+        "id": "mod_gongan_fagui",
+        "name": "公安法律法规",
+        "code": "GONGAN_FAGUI",
+        "description": "公安相关法律法规",
+        "order": 2
+      },
+      {
+        "id": "mod_gongan_yewu",
+        "name": "公安业务能力",
+        "code": "GONGAN_YEWU",
+        "description": "公安实际业务处理能力",
+        "order": 3
+      },
+      {
+        "id": "mod_jiegou_ziren",
+        "name": "自我认知",
+        "code": "JIEGOU_ZIREN",
+        "description": "自我介绍和认知类题目",
+        "order": 1
+      },
+      {
+        "id": "mod_jiegou_renjiguanxi",
+        "name": "人际关系",
+        "code": "JIEGOU_RENJIGUANXI",
+        "description": "人际沟通协调能力",
+        "order": 2
+      },
+      {
+        "id": "mod_jiegou_zuzhi",
+        "name": "组织管理",
+        "code": "JIEGOU_ZUZHI",
+        "description": "活动组织策划能力",
+        "order": 3
+      },
+      {
+        "id": "mod_jiegou_yingji",
+        "name": "应急应变",
+        "code": "JIEGOU_YINGJI",
+        "description": "突发情况处理能力",
+        "order": 4
+      },
+      {
+        "id": "mod_jiegou_zonghe",
+        "name": "综合分析",
+        "code": "JIEGOU_ZONGHE",
+        "description": "社会现象和观点类题目分析",
+        "order": 5
+      }
+    ]
+  },
+  "relationships": {
+    "HAS_SUBJECT": [
+      {"from_id": "cat_gonggong", "to_id": "sub_xingce", "properties": {}},
+      {"from_id": "cat_gonggong", "to_id": "sub_shenlun", "properties": {}},
+      {"from_id": "cat_zhuanye", "to_id": "sub_gongan", "properties": {}},
+      {"from_id": "cat_zhuanye", "to_id": "sub_falv", "properties": {}},
+      {"from_id": "cat_zhuanye", "to_id": "sub_caiwu", "properties": {}},
+      {"from_id": "cat_zhuanye", "to_id": "sub_jisuanji", "properties": {}},
+      {"from_id": "cat_mianshi", "to_id": "sub_jiegouhua", "properties": {}},
+      {"from_id": "cat_mianshi", "to_id": "sub_wulingdao", "properties": {}}
+    ],
+    "HAS_MODULE": [
+      {"from_id": "sub_xingce", "to_id": "mod_yuyan", "properties": {}},
+      {"from_id": "sub_xingce", "to_id": "mod_shuliang", "properties": {}},
+      {"from_id": "sub_xingce", "to_id": "mod_panduan", "properties": {}},
+      {"from_id": "sub_xingce", "to_id": "mod_ziliao", "properties": {}},
+      {"from_id": "sub_xingce", "to_id": "mod_changshi", "properties": {}},
+      {"from_id": "sub_shenlun", "to_id": "mod_gailan", "properties": {}},
+      {"from_id": "sub_shenlun", "to_id": "mod_tichu", "properties": {}},
+      {"from_id": "sub_shenlun", "to_id": "mod_zonghe", "properties": {}},
+      {"from_id": "sub_shenlun", "to_id": "mod_guandian", "properties": {}},
+      {"from_id": "sub_shenlun", "to_id": "mod_xiezuo", "properties": {}},
+      {"from_id": "sub_gongan", "to_id": "mod_gongan_jichu", "properties": {}},
+      {"from_id": "sub_gongan", "to_id": "mod_gongan_fagui", "properties": {}},
+      {"from_id": "sub_gongan", "to_id": "mod_gongan_yewu", "properties": {}},
+      {"from_id": "sub_jiegouhua", "to_id": "mod_jiegou_ziren", "properties": {}},
+      {"from_id": "sub_jiegouhua", "to_id": "mod_jiegou_renjiguanxi", "properties": {}},
+      {"from_id": "sub_jiegouhua", "to_id": "mod_jiegou_zuzhi", "properties": {}},
+      {"from_id": "sub_jiegouhua", "to_id": "mod_jiegou_yingji", "properties": {}},
+      {"from_id": "sub_jiegouhua", "to_id": "mod_jiegou_zonghe", "properties": {}}
+    ]
+  }
+}

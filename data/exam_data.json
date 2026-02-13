@@ -1,0 +1,862 @@
+{
+  "nodes": [
+    {
+      "label": "Subject",
+      "properties": {
+        "id": "SUB001",
+        "name": "行测",
+        "code": "XINGCE",
+        "description": "行政职业能力测验",
+        "exam_type": "国考"
+      }
+    },
+    {
+      "label": "Subject",
+      "properties": {
+        "id": "SUB002",
+        "name": "申论",
+        "code": "SHENLUN",
+        "description": "申论考试",
+        "exam_type": "国考"
+      }
+    },
+    {
+      "label": "Subject",
+      "properties": {
+        "id": "SUB003",
+        "name": "公安专业科目",
+        "code": "GONGAN",
+        "description": "公安机关人民警察职位专业科目",
+        "exam_type": "国考"
+      }
+    },
+    {
+      "label": "Module",
+      "properties": {
+        "id": "MOD001",
+        "name": "言语理解与表达",
+        "code": "YUYAN",
+        "description": "考查语言文字理解和表达能力",
+        "order": 1
+      }
+    },
+    {
+      "label": "Module",
+      "properties": {
+        "id": "MOD002",
+        "name": "数量关系",
+        "code": "SHULIANG",
+        "description": "考查数学运算和推理能力",
+        "order": 2
+      }
+    },
+    {
+      "label": "Module",
+      "properties": {
+        "id": "MOD003",
+        "name": "判断推理",
+        "code": "PANDUAN",
+        "description": "考查逻辑判断和推理能力",
+        "order": 3
+      }
+    },
+    {
+      "label": "Module",
+      "properties": {
+        "id": "MOD004",
+        "name": "资料分析",
+        "code": "ZILIAO",
+        "description": "考查数据分析和计算能力",
+        "order": 4
+      }
+    },
+    {
+      "label": "Module",
+      "properties": {
+        "id": "MOD005",
+        "name": "常识判断",
+        "code": "CHANGSHI",
+        "description": "考查综合常识和判断能力",
+        "order": 5
+      }
+    },
+    {
+      "label": "Module",
+      "properties": {
+        "id": "MOD006",
+        "name": "基础能力",
+        "code": "JICHU",
+        "description": "申论基础写作能力",
+        "order": 1
+      }
+    },
+    {
+      "label": "Chapter",
+      "properties": {
+        "id": "CHP001",
+        "name": "逻辑填空",
+        "code": "LUOJI_TIANKONG",
+        "description": "根据语境填入恰当的词语",
+        "order": 1
+      }
+    },
+    {
+      "label": "Chapter",
+      "properties": {
+        "id": "CHP002",
+        "name": "片段阅读",
+        "code": "PIANDUAN_YUEDU",
+        "description": "理解短文段落的主旨要义",
+        "order": 2
+      }
+    },
+    {
+      "label": "Chapter",
+      "properties": {
+        "id": "CHP003",
+        "name": "数学运算",
+        "code": "SHUXUE_YUNSUAN",
+        "description": "基本数学运算和应用题",
+        "order": 1
+      }
+    },
+    {
+      "label": "Chapter",
+      "properties": {
+        "id": "CHP004",
+        "name": "图形推理",
+        "code": "TUXING_TUILI",
+        "description": "根据图形规律推理答案",
+        "order": 1
+      }
+    },
+    {
+      "label": "Chapter",
+      "properties": {
+        "id": "CHP005",
+        "name": "逻辑判断",
+        "code": "LUOJI_PANDUAN",
+        "description": "逻辑推理和判断能力",
+        "order": 2
+      }
+    },
+    {
+      "label": "Topic",
+      "properties": {
+        "id": "TOP001",
+        "name": "实词辨析",
+        "code": "SHICI_BIANXI",
+        "description": "辨析实词的细微差别",
+        "difficulty": 3,
+        "order": 1
+      }
+    },
+    {
+      "label": "Topic",
+      "properties": {
+        "id": "TOP002",
+        "name": "成语辨析",
+        "code": "CHENGYU_BIANXI",
+        "description": "辨析成语的准确使用",
+        "difficulty": 4,
+        "order": 2
+      }
+    },
+    {
+      "label": "Topic",
+      "properties": {
+        "id": "TOP003",
+        "name": "主旨概括",
+        "code": "ZHUZHI_GAIKUO",
+        "description": "概括文段的中心思想",
+        "difficulty": 3,
+        "order": 1
+      }
+    },
+    {
+      "label": "Topic",
+      "properties": {
+        "id": "TOP004",
+        "name": "意图判断",
+        "code": "YITU_PANDUAN",
+        "description": "判断作者的写作意图",
+        "difficulty": 4,
+        "order": 2
+      }
+    },
+    {
+      "label": "Topic",
+      "properties": {
+        "id": "TOP005",
+        "name": "工程问题",
+        "code": "GONGCHENG_WENTI",
+        "description": "工程类应用题",
+        "difficulty": 3,
+        "order": 1
+      }
+    },
+    {
+      "label": "Topic",
+      "properties": {
+        "id": "TOP006",
+        "name": "行程问题",
+        "code": "XINGCHENG_WENTI",
+        "description": "速度、时间、路程问题",
+        "difficulty": 3,
+        "order": 2
+      }
+    },
+    {
+      "label": "Topic",
+      "properties": {
+        "id": "TOP007",
+        "name": "位置类",
+        "code": "WEIZHI_LEI",
+        "description": "图形位置变化规律",
+        "difficulty": 2,
+        "order": 1
+      }
+    },
+    {
+      "label": "Topic",
+      "properties": {
+        "id": "TOP008",
+        "name": "数量类",
+        "code": "SHULIANG_LEI",
+        "description": "图形数量变化规律",
+        "difficulty": 3,
+        "order": 2
+      }
+    },
+    {
+      "label": "Topic",
+      "properties": {
+        "id": "TOP009",
+        "name": "翻译推理",
+        "code": "FANYI_TUILI",
+        "description": "假言命题、联言命题推理",
+        "difficulty": 4,
+        "order": 1
+      }
+    },
+    {
+      "label": "KnowledgePoint",
+      "properties": {
+        "id": "KP001",
+        "name": "词义侧重分析",
+        "content": "通过分析词语侧重点的不同来选择合适的词语",
+        "definition": "同义词虽然意思相近，但往往在词义侧重上有所不同",
+        "examples": "如'改进'侧重方法，'改善'侧重情况",
+        "difficulty": 3,
+        "importance": 4,
+        "frequency": 15,
+        "keywords": "词义,侧重,辨析"
+      }
+    },
+    {
+      "label": "KnowledgePoint",
+      "properties": {
+        "id": "KP002",
+        "name": "语义轻重分析",
+        "content": "根据语境需要选择语义轻重适当的词语",
+        "definition": "同义词在语义程度上有轻重之分",
+        "examples": "如'批评'轻于'批判'",
+        "difficulty": 3,
+        "importance": 4,
+        "frequency": 12,
+        "keywords": "语义,轻重,程度"
+      }
+    },
+    {
+      "label": "KnowledgePoint",
+      "properties": {
+        "id": "KP003",
+        "name": "成语望文生义",
+        "content": "避免仅从字面意思理解成语",
+        "definition": "成语有特定的历史文化内涵，不能只看表面",
+        "examples": "如'首当其冲'不是'首先冲锋'",
+        "difficulty": 4,
+        "importance": 5,
+        "frequency": 20,
+        "keywords": "成语,理解,误用"
+      }
+    },
+    {
+      "label": "KnowledgePoint",
+      "properties": {
+        "id": "KP004",
+        "name": "成语感情色彩",
+        "content": "准确把握成语的褒贬义",
+        "definition": "成语有明确的感情色彩倾向",
+        "examples": "如'趋之若鹜'是贬义，不能用于积极事物",
+        "difficulty": 3,
+        "importance": 4,
+        "frequency": 18,
+        "keywords": "成语,褒贬,色彩"
+      }
+    },
+    {
+      "label": "KnowledgePoint",
+      "properties": {
+        "id": "KP005",
+        "name": "主题词筛选法",
+        "content": "通过寻找文段高频词来确定主题",
+        "definition": "文段中反复出现的关键词往往是主题所在",
+        "examples": "在讨论环保的段落中，'环境'、'污染'等词会反复出现",
+        "difficulty": 2,
+        "importance": 5,
+        "frequency": 25,
+        "keywords": "主题,关键词,筛选"
+      }
+    },
+    {
+      "label": "KnowledgePoint",
+      "properties": {
+        "id": "KP006",
+        "name": "行文脉络分析",
+        "content": "分析文段的论述结构来把握主旨",
+        "definition": "不同的行文结构有不同的主旨位置",
+        "examples": "总分结构的主旨在开头，分总结构在结尾",
+        "difficulty": 3,
+        "importance": 5,
+        "frequency": 22,
+        "keywords": "结构,脉络,主旨"
+      }
+    },
+    {
+      "label": "KnowledgePoint",
+      "properties": {
+        "id": "KP007",
+        "name": "工程总量设特值",
+        "content": "将工程总量设为工作效率的公倍数",
+        "definition": "通过设特殊值简化计算",
+        "examples": "甲3天完成，乙4天完成，设总量为12",
+        "difficulty": 2,
+        "importance": 5,
+        "frequency": 30,
+        "keywords": "工程,特值,效率"
+      }
+    },
+    {
+      "label": "KnowledgePoint",
+      "properties": {
+        "id": "KP008",
+        "name": "相遇问题公式",
+        "content": "相遇问题中路程=速度和×时间",
+        "definition": "两物体相向运动的基本公式",
+        "examples": "甲速度5m/s，乙速度3m/s，10秒后相遇，距离80米",
+        "difficulty": 2,
+        "importance": 4,
+        "frequency": 20,
+        "keywords": "相遇,速度,时间"
+      }
+    },
+    {
+      "label": "KnowledgePoint",
+      "properties": {
+        "id": "KP009",
+        "name": "图形移动规律",
+        "content": "识别图形平移、旋转、翻转等移动规律",
+        "definition": "图形位置变化的常见模式",
+        "examples": "顺时针旋转90度",
+        "difficulty": 2,
+        "importance": 4,
+        "frequency": 25,
+        "keywords": "图形,移动,旋转"
+      }
+    },
+    {
+      "label": "KnowledgePoint",
+      "properties": {
+        "id": "KP010",
+        "name": "假言命题逆否规则",
+        "content": "如果A则B，等价于如果非B则非A",
+        "definition": "假言命题的逆否等价关系",
+        "examples": "'如果下雨则带伞'等价于'如果没带伞则没下雨'",
+        "difficulty": 4,
+        "importance": 5,
+        "frequency": 28,
+        "keywords": "假言命题,逆否,推理"
+      }
+    },
+    {
+      "label": "Skill",
+      "properties": {
+        "id": "SKL001",
+        "name": "语境分析法",
+        "description": "通过分析上下文语境来选择恰当词语",
+        "steps": "1.找出空格前后的关键信息 2.分析逻辑关系 3.排除不符合语境的选项",
+        "applicable_types": "实词辨析,成语辨析",
+        "effectiveness": 5
+      }
+    },
+    {
+      "label": "Skill",
+      "properties": {
+        "id": "SKL002",
+        "name": "主题词定位法",
+        "description": "快速定位文段主题关键词",
+        "steps": "1.标注高频词 2.找主题句 3.验证选项",
+        "applicable_types": "主旨概括,意图判断",
+        "effectiveness": 5
+      }
+    },
+    {
+      "label": "Skill",
+      "properties": {
+        "id": "SKL003",
+        "name": "特值法",
+        "description": "设定特殊值简化计算",
+        "steps": "1.分析题目特点 2.设定合适特值 3.代入计算",
+        "applicable_types": "工程问题,比例问题",
+        "effectiveness": 5
+      }
+    },
+    {
+      "label": "Skill",
+      "properties": {
+        "id": "SKL004",
+        "name": "排除法",
+        "description": "通过排除明显错误选项缩小范围",
+        "steps": "1.找明显错误项 2.逐一排除 3.在剩余选项中选择",
+        "applicable_types": "通用",
+        "effectiveness": 4
+      }
+    },
+    {
+      "label": "Question",
+      "properties": {
+        "id": "Q001",
+        "year": 2023,
+        "exam_type": "国考",
+        "question_number": 1,
+        "content": "虽然我国粮食生产连年丰收，但这并不意味着可以________，我国粮食供求长期处于紧平衡状态。",
+        "options": "{\"A\":\"高枕无忧\",\"B\":\"掉以轻心\",\"C\":\"麻痹大意\",\"D\":\"盲目乐观\"}",
+        "answer": "A",
+        "analysis": "题目强调不能因为粮食丰收就放松警惕，'高枕无忧'最符合语境，指可以安心睡觉，不用担忧。",
+        "difficulty": 3
+      }
+    },
+    {
+      "label": "Question",
+      "properties": {
+        "id": "Q002",
+        "year": 2023,
+        "exam_type": "国考",
+        "question_number": 15,
+        "content": "甲、乙两个工程队共同完成一项工程，甲队单独做需要20天，乙队单独做需要30天，现在两队合作，问多少天可以完成？",
+        "options": "{\"A\":\"10天\",\"B\":\"12天\",\"C\":\"15天\",\"D\":\"18天\"}",
+        "answer": "B",
+        "analysis": "设总量为60（20和30的最小公倍数），甲效率=3，乙效率=2，合作效率=5，时间=60/5=12天。",
+        "difficulty": 2
+      }
+    },
+    {
+      "label": "Question",
+      "properties": {
+        "id": "Q003",
+        "year": 2022,
+        "exam_type": "国考",
+        "province": "",
+        "question_number": 5,
+        "content": "下列各项中，图形变化规律为顺时针旋转90度的是？",
+        "options": "{\"A\":\"选项A\",\"B\":\"选项B\",\"C\":\"选项C\",\"D\":\"选项D\"}",
+        "answer": "C",
+        "analysis": "观察图形的方向变化，每次都是顺时针旋转90度。",
+        "difficulty": 2
+      }
+    },
+    {
+      "label": "Resource",
+      "properties": {
+        "id": "RES001",
+        "title": "言语理解精讲课",
+        "type": "视频",
+        "url": "http://example.com/video1",
+        "author": "张老师",
+        "duration": 120,
+        "quality": 5,
+        "view_count": 5000
+      }
+    },
+    {
+      "label": "Resource",
+      "properties": {
+        "id": "RES002",
+        "title": "数量关系解题技巧",
+        "type": "文档",
+        "url": "http://example.com/doc1",
+        "author": "李老师",
+        "quality": 4,
+        "view_count": 3000
+      }
+    },
+    {
+      "label": "Concept",
+      "properties": {
+        "id": "CON001",
+        "name": "假言命题",
+        "definition": "表达假设条件关系的命题",
+        "explanation": "形式为'如果...则...'，包括充分条件和必要条件假言命题",
+        "examples": "如果下雨，则地面湿；只有努力，才能成功",
+        "related_terms": "充分条件,必要条件,逆否命题"
+      }
+    },
+    {
+      "label": "Concept",
+      "properties": {
+        "id": "CON002",
+        "name": "主旨句",
+        "definition": "表达段落中心思想的句子",
+        "explanation": "通常是对全段内容的概括或总结",
+        "examples": "总分结构中的总起句，分总结构中的总结句",
+        "related_terms": "中心思想,主题句,论点"
+      }
+    },
+    {
+      "label": "TestPoint",
+      "properties": {
+        "id": "TP001",
+        "name": "成语使用",
+        "description": "成语的准确理解和恰当使用",
+        "frequency": 35,
+        "importance": 5,
+        "trend": "稳定"
+      }
+    },
+    {
+      "label": "TestPoint",
+      "properties": {
+        "id": "TP002",
+        "name": "工程问题",
+        "description": "工程类数学应用题",
+        "frequency": 25,
+        "importance": 4,
+        "trend": "上升"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "HAS_MODULE",
+      "start_node": {"label": "Subject", "key": "id", "value": "SUB001"},
+      "end_node": {"label": "Module", "key": "id", "value": "MOD001"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_MODULE",
+      "start_node": {"label": "Subject", "key": "id", "value": "SUB001"},
+      "end_node": {"label": "Module", "key": "id", "value": "MOD002"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_MODULE",
+      "start_node": {"label": "Subject", "key": "id", "value": "SUB001"},
+      "end_node": {"label": "Module", "key": "id", "value": "MOD003"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_MODULE",
+      "start_node": {"label": "Subject", "key": "id", "value": "SUB001"},
+      "end_node": {"label": "Module", "key": "id", "value": "MOD004"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_MODULE",
+      "start_node": {"label": "Subject", "key": "id", "value": "SUB001"},
+      "end_node": {"label": "Module", "key": "id", "value": "MOD005"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_MODULE",
+      "start_node": {"label": "Subject", "key": "id", "value": "SUB002"},
+      "end_node": {"label": "Module", "key": "id", "value": "MOD006"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_CHAPTER",
+      "start_node": {"label": "Module", "key": "id", "value": "MOD001"},
+      "end_node": {"label": "Chapter", "key": "id", "value": "CHP001"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_CHAPTER",
+      "start_node": {"label": "Module", "key": "id", "value": "MOD001"},
+      "end_node": {"label": "Chapter", "key": "id", "value": "CHP002"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_CHAPTER",
+      "start_node": {"label": "Module", "key": "id", "value": "MOD002"},
+      "end_node": {"label": "Chapter", "key": "id", "value": "CHP003"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_CHAPTER",
+      "start_node": {"label": "Module", "key": "id", "value": "MOD003"},
+      "end_node": {"label": "Chapter", "key": "id", "value": "CHP004"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_CHAPTER",
+      "start_node": {"label": "Module", "key": "id", "value": "MOD003"},
+      "end_node": {"label": "Chapter", "key": "id", "value": "CHP005"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_TOPIC",
+      "start_node": {"label": "Chapter", "key": "id", "value": "CHP001"},
+      "end_node": {"label": "Topic", "key": "id", "value": "TOP001"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_TOPIC",
+      "start_node": {"label": "Chapter", "key": "id", "value": "CHP001"},
+      "end_node": {"label": "Topic", "key": "id", "value": "TOP002"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_TOPIC",
+      "start_node": {"label": "Chapter", "key": "id", "value": "CHP002"},
+      "end_node": {"label": "Topic", "key": "id", "value": "TOP003"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_TOPIC",
+      "start_node": {"label": "Chapter", "key": "id", "value": "CHP002"},
+      "end_node": {"label": "Topic", "key": "id", "value": "TOP004"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_TOPIC",
+      "start_node": {"label": "Chapter", "key": "id", "value": "CHP003"},
+      "end_node": {"label": "Topic", "key": "id", "value": "TOP005"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_TOPIC",
+      "start_node": {"label": "Chapter", "key": "id", "value": "CHP003"},
+      "end_node": {"label": "Topic", "key": "id", "value": "TOP006"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_TOPIC",
+      "start_node": {"label": "Chapter", "key": "id", "value": "CHP004"},
+      "end_node": {"label": "Topic", "key": "id", "value": "TOP007"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_TOPIC",
+      "start_node": {"label": "Chapter", "key": "id", "value": "CHP004"},
+      "end_node": {"label": "Topic", "key": "id", "value": "TOP008"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_TOPIC",
+      "start_node": {"label": "Chapter", "key": "id", "value": "CHP005"},
+      "end_node": {"label": "Topic", "key": "id", "value": "TOP009"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_KNOWLEDGE",
+      "start_node": {"label": "Topic", "key": "id", "value": "TOP001"},
+      "end_node": {"label": "KnowledgePoint", "key": "id", "value": "KP001"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_KNOWLEDGE",
+      "start_node": {"label": "Topic", "key": "id", "value": "TOP001"},
+      "end_node": {"label": "KnowledgePoint", "key": "id", "value": "KP002"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_KNOWLEDGE",
+      "start_node": {"label": "Topic", "key": "id", "value": "TOP002"},
+      "end_node": {"label": "KnowledgePoint", "key": "id", "value": "KP003"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_KNOWLEDGE",
+      "start_node": {"label": "Topic", "key": "id", "value": "TOP002"},
+      "end_node": {"label": "KnowledgePoint", "key": "id", "value": "KP004"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_KNOWLEDGE",
+      "start_node": {"label": "Topic", "key": "id", "value": "TOP003"},
+      "end_node": {"label": "KnowledgePoint", "key": "id", "value": "KP005"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_KNOWLEDGE",
+      "start_node": {"label": "Topic", "key": "id", "value": "TOP003"},
+      "end_node": {"label": "KnowledgePoint", "key": "id", "value": "KP006"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_KNOWLEDGE",
+      "start_node": {"label": "Topic", "key": "id", "value": "TOP005"},
+      "end_node": {"label": "KnowledgePoint", "key": "id", "value": "KP007"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_KNOWLEDGE",
+      "start_node": {"label": "Topic", "key": "id", "value": "TOP006"},
+      "end_node": {"label": "KnowledgePoint", "key": "id", "value": "KP008"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_KNOWLEDGE",
+      "start_node": {"label": "Topic", "key": "id", "value": "TOP007"},
+      "end_node": {"label": "KnowledgePoint", "key": "id", "value": "KP009"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_KNOWLEDGE",
+      "start_node": {"label": "Topic", "key": "id", "value": "TOP009"},
+      "end_node": {"label": "KnowledgePoint", "key": "id", "value": "KP010"},
+      "properties": {}
+    },
+    {
+      "type": "PREREQUISITE",
+      "start_node": {"label": "KnowledgePoint", "key": "id", "value": "KP001"},
+      "end_node": {"label": "KnowledgePoint", "key": "id", "value": "KP002"},
+      "properties": {"strength": 3}
+    },
+    {
+      "type": "RELATED_TO",
+      "start_node": {"label": "KnowledgePoint", "key": "id", "value": "KP003"},
+      "end_node": {"label": "KnowledgePoint", "key": "id", "value": "KP004"},
+      "properties": {"relation_type": "补充"}
+    },
+    {
+      "type": "RELATED_TO",
+      "start_node": {"label": "KnowledgePoint", "key": "id", "value": "KP005"},
+      "end_node": {"label": "KnowledgePoint", "key": "id", "value": "KP006"},
+      "properties": {"relation_type": "互补"}
+    },
+    {
+      "type": "CONFUSABLE_WITH",
+      "start_node": {"label": "KnowledgePoint", "key": "id", "value": "KP001"},
+      "end_node": {"label": "KnowledgePoint", "key": "id", "value": "KP002"},
+      "properties": {
+        "confusion_reason": "都涉及词义辨析",
+        "distinction": "一个看侧重，一个看轻重"
+      }
+    },
+    {
+      "type": "APPLIES_TO",
+      "start_node": {"label": "Skill", "key": "id", "value": "SKL001"},
+      "end_node": {"label": "Topic", "key": "id", "value": "TOP001"},
+      "properties": {"effectiveness": 5}
+    },
+    {
+      "type": "APPLIES_TO",
+      "start_node": {"label": "Skill", "key": "id", "value": "SKL001"},
+      "end_node": {"label": "Topic", "key": "id", "value": "TOP002"},
+      "properties": {"effectiveness": 5}
+    },
+    {
+      "type": "APPLIES_TO",
+      "start_node": {"label": "Skill", "key": "id", "value": "SKL002"},
+      "end_node": {"label": "Topic", "key": "id", "value": "TOP003"},
+      "properties": {"effectiveness": 5}
+    },
+    {
+      "type": "APPLIES_TO",
+      "start_node": {"label": "Skill", "key": "id", "value": "SKL003"},
+      "end_node": {"label": "Topic", "key": "id", "value": "TOP005"},
+      "properties": {"effectiveness": 5}
+    },
+    {
+      "type": "TESTS",
+      "start_node": {"label": "Question", "key": "id", "value": "Q001"},
+      "end_node": {"label": "KnowledgePoint", "key": "id", "value": "KP004"},
+      "properties": {"weight": 1.0}
+    },
+    {
+      "type": "TESTS",
+      "start_node": {"label": "Question", "key": "id", "value": "Q002"},
+      "end_node": {"label": "KnowledgePoint", "key": "id", "value": "KP007"},
+      "properties": {"weight": 1.0}
+    },
+    {
+      "type": "TESTS",
+      "start_node": {"label": "Question", "key": "id", "value": "Q003"},
+      "end_node": {"label": "KnowledgePoint", "key": "id", "value": "KP009"},
+      "properties": {"weight": 1.0}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {"label": "Question", "key": "id", "value": "Q001"},
+      "end_node": {"label": "Topic", "key": "id", "value": "TOP002"},
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {"label": "Question", "key": "id", "value": "Q002"},
+      "end_node": {"label": "Topic", "key": "id", "value": "TOP005"},
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {"label": "Question", "key": "id", "value": "Q003"},
+      "end_node": {"label": "Topic", "key": "id", "value": "TOP007"},
+      "properties": {}
+    },
+    {
+      "type": "HAS_RESOURCE",
+      "start_node": {"label": "Topic", "key": "id", "value": "TOP001"},
+      "end_node": {"label": "Resource", "key": "id", "value": "RES001"},
+      "properties": {"recommended": true}
+    },
+    {
+      "type": "HAS_RESOURCE",
+      "start_node": {"label": "Topic", "key": "id", "value": "TOP005"},
+      "end_node": {"label": "Resource", "key": "id", "value": "RES002"},
+      "properties": {"recommended": true}
+    },
+    {
+      "type": "DEFINES",
+      "start_node": {"label": "Concept", "key": "id", "value": "CON001"},
+      "end_node": {"label": "KnowledgePoint", "key": "id", "value": "KP010"},
+      "properties": {}
+    },
+    {
+      "type": "DEFINES",
+      "start_node": {"label": "Concept", "key": "id", "value": "CON002"},
+      "end_node": {"label": "KnowledgePoint", "key": "id", "value": "KP005"},
+      "properties": {}
+    },
+    {
+      "type": "IS_TEST_POINT",
+      "start_node": {"label": "KnowledgePoint", "key": "id", "value": "KP003"},
+      "end_node": {"label": "TestPoint", "key": "id", "value": "TP001"},
+      "properties": {}
+    },
+    {
+      "type": "IS_TEST_POINT",
+      "start_node": {"label": "KnowledgePoint", "key": "id", "value": "KP004"},
+      "end_node": {"label": "TestPoint", "key": "id", "value": "TP001"},
+      "properties": {}
+    },
+    {
+      "type": "IS_TEST_POINT",
+      "start_node": {"label": "KnowledgePoint", "key": "id", "value": "KP007"},
+      "end_node": {"label": "TestPoint", "key": "id", "value": "TP002"},
+      "properties": {}
+    },
+    {
+      "type": "USES_SKILL",
+      "start_node": {"label": "Question", "key": "id", "value": "Q001"},
+      "end_node": {"label": "Skill", "key": "id", "value": "SKL001"},
+      "properties": {}
+    },
+    {
+      "type": "USES_SKILL",
+      "start_node": {"label": "Question", "key": "id", "value": "Q002"},
+      "end_node": {"label": "Skill", "key": "id", "value": "SKL003"},
+      "properties": {}
+    }
+  ]
+}

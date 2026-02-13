@@ -1,0 +1,28 @@
+# Python 虚拟环境
+mapknowledge/
+.venv/
+venv/
+env/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Neo4j 安装目录和压缩包（包含大量二进制文件，不适合上传）
+neo4j-community-*/
+neo4j-server.zip
+*.zip
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
