@@ -23,9 +23,17 @@ from openai import OpenAI
 
 def init_aliyun_client() -> OpenAI:
     """初始化阿里百炼 OpenAI 客户端"""
-    api_key = os.getenv("DASHSCOPE_CLAUDE_API_KEY")
+    # 优先使用环境变量，如果未设置则使用默认值
+    api_key = os.getenv("DASHSCOPE_CLAUDE_API_KEY", "sk-69b4138e853648a79659aa01cc859dd6")
+    
     if not api_key:
-        raise ValueError("未设置 DASHSCOPE_CLAUDE_API_KEY 环境变量")
+        raise ValueError(
+            "未设置 DASHSCOPE_CLAUDE_API_KEY 环境变量！\n\n"
+            "设置方法：\n"
+            "Windows (cmd):  set DASHSCOPE_CLAUDE_API_KEY=sk-69b4138e853648a79659aa01cc859dd6\n"
+            "Windows (PS):   $env:DASHSCOPE_CLAUDE_API_KEY = 'sk-69b4138e853648a79659aa01cc859dd6'\n"
+            "Linux/Mac:      export DASHSCOPE_CLAUDE_API_KEY=sk-69b4138e853648a79659aa01cc859dd6"
+        )
     
     client = OpenAI(
         base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
@@ -235,10 +243,14 @@ def main():
         print("=" * 60)
         
     except ValueError as e:
-        print(f"错误: {e}")
-        print("\n请设置环境变量:")
-        print("Windows: set DASHSCOPE_CLAUDE_API_KEY=sk-69b4138e853648a79659aa01cc859dd6")
-        print("Linux/Mac: export DASHSCOPE_CLAUDE_API_KEY=sk-69b4138e853648a79659aa01cc859dd6")
+        print(f"\n❌ 错误: {e}")
+    except Exception as e:
+        print(f"\n❌ 执行出错: {type(e).__name__}: {str(e)}")
+        print("\n可能的原因：")
+        print("1. 网络连接问题")
+        print("2. API Key 无效或过期")
+        print("3. openai 包未安装（pip install openai）")
+        print("\n更多帮助请查看 ALIYUN_DASHSCOPE_GUIDE.md 或 QUICK_FIX.md")
 
 
 if __name__ == "__main__":
