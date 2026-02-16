@@ -6,7 +6,7 @@
 API 密钥配置:
 - API Key: sk-69b4138e853648a79659aa01cc859dd6
 - Base URL: https://dashscope.aliyuncs.com/compatible-mode/v1
-- Model: claude-3-5-sonnet
+- Model: qwen-max (默认) / claude-3-5-sonnet (需要权限)
 
 Windows 环境变量设置:
 set DASHSCOPE_CLAUDE_API_KEY=sk-69b4138e853648a79659aa01cc859dd6
@@ -61,7 +61,7 @@ def extract_entities_example():
 }"""
     
     response = client.chat.completions.create(
-        model="claude-3-5-sonnet",
+        model="qwen3.5-plus",
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt}
@@ -100,7 +100,7 @@ def document_classification_example():
 }"""
     
     response = client.chat.completions.create(
-        model="claude-3-5-sonnet",
+        model="qwen-max",
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt}
@@ -130,7 +130,7 @@ def summarization_example():
     摘要应该保留原文的主要信息，字数在100-200字之间。"""
     
     response = client.chat.completions.create(
-        model="claude-3-5-sonnet",
+        model="qwen-max",
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": f"请对以下文本进行摘要：\n\n{long_text}"}
@@ -156,7 +156,7 @@ def knowledge_qa_example():
     
     for question in questions:
         response = client.chat.completions.create(
-            model="claude-3-5-sonnet",
+            model="qwen-max",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": question}
@@ -184,7 +184,7 @@ def batch_processing_example():
     results = []
     for i, text in enumerate(texts, 1):
         response = client.chat.completions.create(
-            model="claude-3-5-sonnet",
+            model="qwen-max",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": f"请从以下文本中提取关键词：\n{text}"}
@@ -243,13 +243,14 @@ def main():
         print("=" * 60)
         
     except ValueError as e:
-        print(f"\n❌ 错误: {e}")
+        print(f"\n[ERROR] 错误: {e}")
     except Exception as e:
-        print(f"\n❌ 执行出错: {type(e).__name__}: {str(e)}")
+        print(f"\n[ERROR] 执行出错: {type(e).__name__}: {str(e)}")
         print("\n可能的原因：")
         print("1. 网络连接问题")
         print("2. API Key 无效或过期")
         print("3. openai 包未安装（pip install openai）")
+        print("4. 使用了需要权限的模型")
         print("\n更多帮助请查看 ALIYUN_DASHSCOPE_GUIDE.md 或 QUICK_FIX.md")
 
 
