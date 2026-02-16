@@ -123,11 +123,13 @@ class EntityExtractor:
         if self.llm_type == "dashscope_claude":
             try:
                 from openai import OpenAI
+                # 获取或使用默认 API 密钥
+                api_key = os.getenv("DASHSCOPE_CLAUDE_API_KEY", "sk-69b4138e853648a79659aa01cc859dd6")
                 self.client = OpenAI(
                     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
-                    api_key=os.getenv("DASHSCOPE_CLAUDE_API_KEY")
+                    api_key=api_key
                 )
-                print("使用阿里百炼大模型平台")
+                print("使用阿里百炼大模型平台 (qwen-max)")
             except ImportError:
                 print("请安装 openai: pip install openai")
                 sys.exit(1)
@@ -135,9 +137,12 @@ class EntityExtractor:
         elif self.llm_type == "doubao":
             try:
                 from openai import OpenAI
+                api_key = os.getenv("ARK_API_KEY")
+                if not api_key:
+                    raise ValueError("未设置 ARK_API_KEY 环境变量")
                 self.client = OpenAI(
                     base_url="https://ark.cn-beijing.volces.com/api/v3",
-                    api_key=os.getenv("ARK_API_KEY")
+                    api_key=api_key
                 )
                 print("使用字节豆包 (Doubao)")
             except ImportError:
@@ -182,7 +187,7 @@ class EntityExtractor:
         """调用 LLM"""
         if self.llm_type == "dashscope_claude":
             response = self.client.chat.completions.create(
-                model="claude-3-5-sonnet",
+                model="qwen-max",
                 messages=[
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": prompt}
