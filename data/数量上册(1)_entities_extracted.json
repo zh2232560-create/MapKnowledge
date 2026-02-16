@@ -1,0 +1,182 @@
+{
+  "nodes": [
+    {
+      "id": "chapter_数量关系",
+      "label": "Chapter",
+      "properties": {
+        "name": "数量关系",
+        "created_at": "2026-02-16T18:52:59.152487"
+      }
+    },
+    {
+      "id": "topic_数学运算",
+      "label": "Topic",
+      "properties": {
+        "name": "数学运算",
+        "created_at": "2026-02-16T18:52:59.152494"
+      }
+    },
+    {
+      "id": "kp_代入排除法",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "代入排除法",
+        "content": "代入排除法是一种通过将选项代入题干条件中，逐步排除不符合条件的选项，从而找到正确答案的方法。",
+        "keywords": "[\"\\u4ee3\\u5165\", \"\\u6392\\u9664\", \"\\u9009\\u9879\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-16T18:52:59.152504"
+      }
+    },
+    {
+      "id": "kp_数字特性法",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "数字特性法",
+        "content": "数字特性法是利用数字的特殊性质（如奇偶性、整除性等）来解决问题的方法。",
+        "keywords": "[\"\\u6570\\u5b57\\u7279\\u6027\", \"\\u5947\\u5076\\u6027\", \"\\u6574\\u9664\\u6027\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-16T18:52:59.152508"
+      }
+    },
+    {
+      "id": "kp_方程法",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "方程法",
+        "content": "方程法是通过建立方程或方程组来求解问题的方法，适用于多种类型的数学运算题目。",
+        "keywords": "[\"\\u65b9\\u7a0b\", \"\\u65b9\\u7a0b\\u7ec4\", \"\\u6c42\\u89e3\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-16T18:52:59.152510"
+      }
+    },
+    {
+      "id": "question_2024年甲、乙、丙三人的年龄之和与2034年甲的年龄相同，且甲、乙的年龄之差大于乙、丙的年龄之差。",
+      "label": "Question",
+      "properties": {
+        "content": "2024年甲、乙、丙三人的年龄之和与2034年甲的年龄相同，且甲、乙的年龄之差大于乙、丙的年龄之差。已知乙的年龄小于甲但大于丙，问2024年甲的年龄最小可能为多少岁？",
+        "answer": "A",
+        "analysis": "设2024年甲、乙、丙的年龄分别为x, y, z，则有x + y + z = x + 10。又因为x - y > y - z，且y < x < z。通过代入排除法可以得出x的最小值为13。",
+        "difficulty": 3,
+        "created_at": "2026-02-16T18:52:59.152512"
+      }
+    },
+    {
+      "id": "question_某年级从A、B、C、D四个班招募96名志愿者，其中A班志愿者人数占总数的1/3，B班志愿者人数比C班",
+      "label": "Question",
+      "properties": {
+        "content": "某年级从A、B、C、D四个班招募96名志愿者，其中A班志愿者人数占总数的1/3，B班志愿者人数比C班多4人，D班志愿者人数比其他三个班都少。问D班最多能有多少名志愿者？",
+        "answer": "B",
+        "analysis": "设A班志愿者人数为a，B班为b，C班为c，D班为d。则a = 96 * 1/3 = 32，b = c + 4，且d < a, d < b, d < c。通过代入排除法可以得出d的最大值为19。",
+        "difficulty": 3,
+        "created_at": "2026-02-16T18:52:59.152513"
+      }
+    },
+    {
+      "id": "question_在一次团体操表演中，演员方阵的成员需要贴上红色、黄色和白色三种颜色之一的背贴。一位演员看到贴红色背贴",
+      "label": "Question",
+      "properties": {
+        "content": "在一次团体操表演中，演员方阵的成员需要贴上红色、黄色和白色三种颜色之一的背贴。一位演员看到贴红色背贴的演员是除自己之外所有演员的1/5，另一位演员则看到贴红色背贴的演员是除自己之外所有演员的2/11。问这次团体操的演员有多少人？",
+        "answer": "C",
+        "analysis": "设总人数为n，红色背贴的人数为r。根据题意，有r = (n-1)/5 和 r = 2(n-1)/11。通过解方程可以得出n = 110。",
+        "difficulty": 3,
+        "created_at": "2026-02-16T18:52:59.152515"
+      }
+    },
+    {
+      "id": "question_农学院学生采集了甲、乙两个品种的水稻样本各若干份，其中36份为有效样本。已知乙品种采集样本30份，那",
+      "label": "Question",
+      "properties": {
+        "content": "农学院学生采集了甲、乙两个品种的水稻样本各若干份，其中36份为有效样本。已知乙品种采集样本30份，那么甲品种的有效样本比乙品种的无效样本：",
+        "answer": "A",
+        "analysis": "设甲品种的有效样本为x，乙品种的有效样本为y。则x + y = 36，乙品种的无效样本为30 - y。通过方程法可以得出x - (30 - y) = 6。",
+        "difficulty": 3,
+        "created_at": "2026-02-16T18:52:59.152516"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "BELONGS_TO_CHAPTER",
+      "start_node": {
+        "value": "topic_数学运算"
+      },
+      "end_node": {
+        "value": "chapter_数量关系"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_代入排除法"
+      },
+      "end_node": {
+        "value": "topic_数学运算"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_数字特性法"
+      },
+      "end_node": {
+        "value": "topic_数学运算"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_方程法"
+      },
+      "end_node": {
+        "value": "topic_数学运算"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_2024年甲、乙、丙三人的年龄之和与2034年甲的年龄相同，且甲、乙的年龄之差大于乙、丙的年龄之差。"
+      },
+      "end_node": {
+        "value": "topic_数学运算"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_某年级从A、B、C、D四个班招募96名志愿者，其中A班志愿者人数占总数的1/3，B班志愿者人数比C班"
+      },
+      "end_node": {
+        "value": "topic_数学运算"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_在一次团体操表演中，演员方阵的成员需要贴上红色、黄色和白色三种颜色之一的背贴。一位演员看到贴红色背贴"
+      },
+      "end_node": {
+        "value": "topic_数学运算"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_农学院学生采集了甲、乙两个品种的水稻样本各若干份，其中36份为有效样本。已知乙品种采集样本30份，那"
+      },
+      "end_node": {
+        "value": "topic_数学运算"
+      },
+      "properties": {}
+    }
+  ]
+}

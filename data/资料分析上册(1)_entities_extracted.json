@@ -1,0 +1,139 @@
+{
+  "nodes": [
+    {
+      "id": "chapter_第一章_文字资料",
+      "label": "Chapter",
+      "properties": {
+        "name": "第一章 文字资料",
+        "created_at": "2026-02-16T18:56:25.404742"
+      }
+    },
+    {
+      "id": "topic_文字资料分析",
+      "label": "Topic",
+      "properties": {
+        "name": "文字资料分析",
+        "created_at": "2026-02-16T18:56:25.404753"
+      }
+    },
+    {
+      "id": "kp_数据同比增长计算",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "数据同比增长计算",
+        "content": "通过给定的数据，计算某项指标的同比增长率。例如，2023年上半年全国新注册登记机动车1688万辆，同比增长1.9%。",
+        "keywords": "[\"\\u540c\\u6bd4\\u589e\\u957f\", \"\\u6570\\u636e\\u8ba1\\u7b97\", \"\\u767e\\u5206\\u6bd4\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-16T18:56:25.404774"
+      }
+    },
+    {
+      "id": "kp_数据占比计算",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "数据占比计算",
+        "content": "通过给定的数据，计算某项指标在整体中的占比。例如，2023年6月末新能源汽车保有量占汽车保有量的比重。",
+        "keywords": "[\"\\u6570\\u636e\\u5360\\u6bd4\", \"\\u767e\\u5206\\u6bd4\", \"\\u8ba1\\u7b97\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-16T18:56:25.404783"
+      }
+    },
+    {
+      "id": "question_2023年上半年，我国办理汽车转让登记业务同比增加：\nA._不到40万辆_B._40多万辆\nC._5",
+      "label": "Question",
+      "properties": {
+        "content": "2023年上半年，我国办理汽车转让登记业务同比增加：\nA. 不到40万辆 B. 40多万辆\nC. 50多万辆 D. 60万辆以上",
+        "answer": "B",
+        "analysis": "根据题干信息，2023年上半年全国办理机动车转让登记业务1134万辆，其中办理汽车转让登记业务1057万辆，同比增长5.3%。计算得出同比增加约55万辆。",
+        "difficulty": 3,
+        "created_at": "2026-02-16T18:56:25.404787"
+      }
+    },
+    {
+      "id": "question_2023年上半年，全国新注册登记非汽车类机动车数量比上年同期：\nA._增长了不到2%_B._增长了2",
+      "label": "Question",
+      "properties": {
+        "content": "2023年上半年，全国新注册登记非汽车类机动车数量比上年同期：\nA. 增长了不到2% B. 增长了2%以上\nC. 减少了不到2% D. 减少了2%以上",
+        "answer": "C",
+        "analysis": "根据题干信息，2023年上半年全国新注册登记机动车1688万辆，同比增长1.9%。新注册登记汽车1175万辆，同比增长5.8%。因此，非汽车类机动车数量减少了。",
+        "difficulty": 3,
+        "created_at": "2026-02-16T18:56:25.404791"
+      }
+    },
+    {
+      "id": "question_2023年6月末，新能源汽车保有量占汽车保有量的比重，比当年上半年新注册登记新能源汽车数量占新注册登",
+      "label": "Question",
+      "properties": {
+        "content": "2023年6月末，新能源汽车保有量占汽车保有量的比重，比当年上半年新注册登记新能源汽车数量占新注册登记汽车数量的比重约低多少个百分点？\nA. 12 B. 17\nC. 22 D. 27",
+        "answer": "C",
+        "analysis": "根据题干信息，2023年6月末新能源汽车保有量为1620万辆，占汽车保有量3.28亿辆的比重约为4.9%。而上半年新注册登记新能源汽车313万辆，占新注册登记汽车1175万辆的比重约为26.6%。两者相差约21.7个百分点。",
+        "difficulty": 3,
+        "created_at": "2026-02-16T18:56:25.404795"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "BELONGS_TO_CHAPTER",
+      "start_node": {
+        "value": "topic_文字资料分析"
+      },
+      "end_node": {
+        "value": "chapter_第一章_文字资料"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_数据同比增长计算"
+      },
+      "end_node": {
+        "value": "topic_文字资料分析"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_数据占比计算"
+      },
+      "end_node": {
+        "value": "topic_文字资料分析"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_2023年上半年，我国办理汽车转让登记业务同比增加：\nA._不到40万辆_B._40多万辆\nC._5"
+      },
+      "end_node": {
+        "value": "topic_文字资料分析"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_2023年上半年，全国新注册登记非汽车类机动车数量比上年同期：\nA._增长了不到2%_B._增长了2"
+      },
+      "end_node": {
+        "value": "topic_文字资料分析"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_2023年6月末，新能源汽车保有量占汽车保有量的比重，比当年上半年新注册登记新能源汽车数量占新注册登"
+      },
+      "end_node": {
+        "value": "topic_文字资料分析"
+      },
+      "properties": {}
+    }
+  ]
+}

@@ -5,7 +5,7 @@
       "label": "Chapter",
       "properties": {
         "name": "常识判断",
-        "created_at": "2026-02-16T18:39:55.891217"
+        "created_at": "2026-02-16T18:51:08.846120"
       }
     },
     {
@@ -13,7 +13,7 @@
       "label": "Topic",
       "properties": {
         "name": "人文常识",
-        "created_at": "2026-02-16T18:39:55.891217"
+        "created_at": "2026-02-16T18:51:08.846130"
       }
     },
     {
@@ -21,11 +21,11 @@
       "label": "KnowledgePoint",
       "properties": {
         "name": "文化常识",
-        "content": "包括夯实基础和高难进阶两部分，涵盖广泛的文化知识。",
-        "keywords": "[\"\\u6587\\u5316\", \"\\u57fa\\u7840\\u77e5\\u8bc6\", \"\\u9ad8\\u96be\\u8fdb\\u9636\"]",
+        "content": "文化常识包括各种文化背景、传统习俗、节日庆典等方面的知识。",
+        "keywords": "[\"\\u6587\\u5316\\u80cc\\u666f\", \"\\u4f20\\u7edf\\u4e60\\u4fd7\", \"\\u8282\\u65e5\\u5e86\\u5178\"]",
         "difficulty": 3,
         "importance": 4,
-        "created_at": "2026-02-16T18:39:55.891217"
+        "created_at": "2026-02-16T18:51:08.846145"
       }
     },
     {
@@ -33,11 +33,11 @@
       "label": "KnowledgePoint",
       "properties": {
         "name": "文学常识",
-        "content": "包括夯实基础和高难进阶两部分，涉及中外文学作品及其作者。",
-        "keywords": "[\"\\u6587\\u5b66\", \"\\u57fa\\u7840\\u77e5\\u8bc6\", \"\\u9ad8\\u96be\\u8fdb\\u9636\"]",
+        "content": "文学常识涉及中外文学作品、作家及其代表作等内容。",
+        "keywords": "[\"\\u6587\\u5b66\\u4f5c\\u54c1\", \"\\u4f5c\\u5bb6\", \"\\u4ee3\\u8868\\u4f5c\"]",
         "difficulty": 3,
         "importance": 4,
-        "created_at": "2026-02-16T18:39:55.891217"
+        "created_at": "2026-02-16T18:51:08.846152"
       }
     },
     {
@@ -45,11 +45,22 @@
       "label": "KnowledgePoint",
       "properties": {
         "name": "历史常识",
-        "content": "包括夯实基础和高难进阶两部分，涵盖中国及世界历史的重要事件和人物。",
-        "keywords": "[\"\\u5386\\u53f2\", \"\\u57fa\\u7840\\u77e5\\u8bc6\", \"\\u9ad8\\u96be\\u8fdb\\u9636\"]",
+        "content": "历史常识涵盖中国及世界历史的重要事件、人物和时期。",
+        "keywords": "[\"\\u91cd\\u8981\\u4e8b\\u4ef6\", \"\\u5386\\u53f2\\u4eba\\u7269\", \"\\u5386\\u53f2\\u65f6\\u671f\"]",
         "difficulty": 3,
         "importance": 4,
-        "created_at": "2026-02-16T18:39:55.891217"
+        "created_at": "2026-02-16T18:51:08.846157"
+      }
+    },
+    {
+      "id": "question_下列哪部作品是鲁迅所著？",
+      "label": "Question",
+      "properties": {
+        "content": "下列哪部作品是鲁迅所著？",
+        "answer": "B",
+        "analysis": "《狂人日记》是鲁迅的代表作之一，其他选项分别为钱钟书、茅盾和老舍的作品。",
+        "difficulty": 3,
+        "created_at": "2026-02-16T18:51:08.846161"
       }
     },
     {
@@ -57,7 +68,7 @@
       "label": "Topic",
       "properties": {
         "name": "科技常识",
-        "created_at": "2026-02-16T18:39:55.891217"
+        "created_at": "2026-02-16T18:51:08.846163"
       }
     },
     {
@@ -65,11 +76,11 @@
       "label": "KnowledgePoint",
       "properties": {
         "name": "物理常识",
-        "content": "包括夯实基础和高难进阶两部分，涵盖物理学的基本概念和原理。",
-        "keywords": "[\"\\u7269\\u7406\", \"\\u57fa\\u7840\\u77e5\\u8bc6\", \"\\u9ad8\\u96be\\u8fdb\\u9636\"]",
+        "content": "物理常识包括力学、光学、电磁学等基本概念和原理。",
+        "keywords": "[\"\\u529b\\u5b66\", \"\\u5149\\u5b66\", \"\\u7535\\u78c1\\u5b66\"]",
         "difficulty": 3,
         "importance": 4,
-        "created_at": "2026-02-16T18:39:55.891217"
+        "created_at": "2026-02-16T18:51:08.846167"
       }
     },
     {
@@ -77,11 +88,11 @@
       "label": "KnowledgePoint",
       "properties": {
         "name": "化学常识",
-        "content": "包括夯实基础和高难进阶两部分，涵盖化学的基本概念和原理。",
-        "keywords": "[\"\\u5316\\u5b66\", \"\\u57fa\\u7840\\u77e5\\u8bc6\", \"\\u9ad8\\u96be\\u8fdb\\u9636\"]",
+        "content": "化学常识涉及元素周期表、化学反应类型及常见化合物等。",
+        "keywords": "[\"\\u5143\\u7d20\\u5468\\u671f\\u8868\", \"\\u5316\\u5b66\\u53cd\\u5e94\", \"\\u5316\\u5408\\u7269\"]",
         "difficulty": 3,
         "importance": 4,
-        "created_at": "2026-02-16T18:39:55.891217"
+        "created_at": "2026-02-16T18:51:08.846172"
       }
     },
     {
@@ -89,11 +100,11 @@
       "label": "KnowledgePoint",
       "properties": {
         "name": "生物常识",
-        "content": "包括夯实基础和高难进阶两部分，涵盖生物学的基本概念和原理。",
-        "keywords": "[\"\\u751f\\u7269\", \"\\u57fa\\u7840\\u77e5\\u8bc6\", \"\\u9ad8\\u96be\\u8fdb\\u9636\"]",
+        "content": "生物常识包括细胞结构、遗传学基础、生态系统等。",
+        "keywords": "[\"\\u7ec6\\u80de\\u7ed3\\u6784\", \"\\u9057\\u4f20\\u5b66\", \"\\u751f\\u6001\\u7cfb\\u7edf\"]",
         "difficulty": 3,
         "importance": 4,
-        "created_at": "2026-02-16T18:39:55.891217"
+        "created_at": "2026-02-16T18:51:08.846176"
       }
     },
     {
@@ -101,11 +112,11 @@
       "label": "KnowledgePoint",
       "properties": {
         "name": "科技理论与成就",
-        "content": "包括夯实基础和高难进阶两部分，涵盖重要的科技理论和科技成果。",
-        "keywords": "[\"\\u79d1\\u6280\\u7406\\u8bba\", \"\\u79d1\\u6280\\u6210\\u679c\", \"\\u57fa\\u7840\\u77e5\\u8bc6\", \"\\u9ad8\\u96be\\u8fdb\\u9636\"]",
+        "content": "科技理论与成就涵盖重要的科学发现、技术发明及其应用。",
+        "keywords": "[\"\\u79d1\\u5b66\\u53d1\\u73b0\", \"\\u6280\\u672f\\u53d1\\u660e\", \"\\u5e94\\u7528\"]",
         "difficulty": 3,
         "importance": 4,
-        "created_at": "2026-02-16T18:39:55.891217"
+        "created_at": "2026-02-16T18:51:08.846181"
       }
     },
     {
@@ -113,11 +124,22 @@
       "label": "KnowledgePoint",
       "properties": {
         "name": "生活常识",
-        "content": "包括夯实基础和高难进阶两部分，涵盖日常生活中的科学知识。",
-        "keywords": "[\"\\u751f\\u6d3b\", \"\\u79d1\\u5b66\\u77e5\\u8bc6\", \"\\u57fa\\u7840\\u77e5\\u8bc6\", \"\\u9ad8\\u96be\\u8fdb\\u9636\"]",
+        "content": "生活常识包括日常生活中的科学知识和技术应用。",
+        "keywords": "[\"\\u65e5\\u5e38\\u751f\\u6d3b\", \"\\u79d1\\u5b66\\u77e5\\u8bc6\", \"\\u6280\\u672f\\u5e94\\u7528\"]",
         "difficulty": 3,
         "importance": 4,
-        "created_at": "2026-02-16T18:39:55.891217"
+        "created_at": "2026-02-16T18:51:08.846185"
+      }
+    },
+    {
+      "id": "question_下列哪个科学家提出了相对论？",
+      "label": "Question",
+      "properties": {
+        "content": "下列哪个科学家提出了相对论？",
+        "answer": "B",
+        "analysis": "爱因斯坦提出了相对论，这是现代物理学的重要理论之一。",
+        "difficulty": 3,
+        "created_at": "2026-02-16T18:51:08.846188"
       }
     },
     {
@@ -125,7 +147,7 @@
       "label": "Topic",
       "properties": {
         "name": "法律常识",
-        "created_at": "2026-02-16T18:39:55.891217"
+        "created_at": "2026-02-16T18:51:08.846190"
       }
     },
     {
@@ -133,11 +155,11 @@
       "label": "KnowledgePoint",
       "properties": {
         "name": "宪法",
-        "content": "包括夯实基础和高难进阶两部分，涵盖宪法的基本原则和内容。",
-        "keywords": "[\"\\u5baa\\u6cd5\", \"\\u57fa\\u672c\\u539f\\u5219\", \"\\u57fa\\u7840\\u77e5\\u8bc6\", \"\\u9ad8\\u96be\\u8fdb\\u9636\"]",
+        "content": "宪法是国家的根本大法，规定了国家的基本制度和公民的基本权利义务。",
+        "keywords": "[\"\\u6839\\u672c\\u5927\\u6cd5\", \"\\u57fa\\u672c\\u5236\\u5ea6\", \"\\u516c\\u6c11\\u6743\\u5229\"]",
         "difficulty": 3,
         "importance": 4,
-        "created_at": "2026-02-16T18:39:55.891217"
+        "created_at": "2026-02-16T18:51:08.846194"
       }
     },
     {
@@ -145,11 +167,11 @@
       "label": "KnowledgePoint",
       "properties": {
         "name": "行政法",
-        "content": "包括夯实基础和高难进阶两部分，涵盖行政法的基本原则和内容。",
-        "keywords": "[\"\\u884c\\u653f\\u6cd5\", \"\\u57fa\\u672c\\u539f\\u5219\", \"\\u57fa\\u7840\\u77e5\\u8bc6\", \"\\u9ad8\\u96be\\u8fdb\\u9636\"]",
+        "content": "行政法是调整国家行政机关与其管理对象之间关系的法律规范。",
+        "keywords": "[\"\\u884c\\u653f\\u673a\\u5173\", \"\\u7ba1\\u7406\\u5bf9\\u8c61\", \"\\u6cd5\\u5f8b\\u89c4\\u8303\"]",
         "difficulty": 3,
         "importance": 4,
-        "created_at": "2026-02-16T18:39:55.891217"
+        "created_at": "2026-02-16T18:51:08.846198"
       }
     },
     {
@@ -157,11 +179,11 @@
       "label": "KnowledgePoint",
       "properties": {
         "name": "民法与民事诉讼法",
-        "content": "包括夯实基础和高难进阶两部分，涵盖民法和民事诉讼法的基本原则和内容。",
-        "keywords": "[\"\\u6c11\\u6cd5\", \"\\u6c11\\u4e8b\\u8bc9\\u8bbc\\u6cd5\", \"\\u57fa\\u672c\\u539f\\u5219\", \"\\u57fa\\u7840\\u77e5\\u8bc6\", \"\\u9ad8\\u96be\\u8fdb\\u9636\"]",
+        "content": "民法调整平等主体之间的财产关系和人身关系，民事诉讼法规定了民事案件的诉讼程序。",
+        "keywords": "[\"\\u8d22\\u4ea7\\u5173\\u7cfb\", \"\\u4eba\\u8eab\\u5173\\u7cfb\", \"\\u8bc9\\u8bbc\\u7a0b\\u5e8f\"]",
         "difficulty": 3,
         "importance": 4,
-        "created_at": "2026-02-16T18:39:55.891217"
+        "created_at": "2026-02-16T18:51:08.846202"
       }
     },
     {
@@ -169,11 +191,11 @@
       "label": "KnowledgePoint",
       "properties": {
         "name": "刑法与刑事诉讼法",
-        "content": "包括夯实基础和高难进阶两部分，涵盖刑法和刑事诉讼法的基本原则和内容。",
-        "keywords": "[\"\\u5211\\u6cd5\", \"\\u5211\\u4e8b\\u8bc9\\u8bbc\\u6cd5\", \"\\u57fa\\u672c\\u539f\\u5219\", \"\\u57fa\\u7840\\u77e5\\u8bc6\", \"\\u9ad8\\u96be\\u8fdb\\u9636\"]",
+        "content": "刑法规定了犯罪行为及其刑罚，刑事诉讼法规定了刑事案件的诉讼程序。",
+        "keywords": "[\"\\u72af\\u7f6a\\u884c\\u4e3a\", \"\\u5211\\u7f5a\", \"\\u8bc9\\u8bbc\\u7a0b\\u5e8f\"]",
         "difficulty": 3,
         "importance": 4,
-        "created_at": "2026-02-16T18:39:55.891217"
+        "created_at": "2026-02-16T18:51:08.846206"
       }
     },
     {
@@ -181,11 +203,11 @@
       "label": "KnowledgePoint",
       "properties": {
         "name": "商法与经济法",
-        "content": "包括夯实基础和高难进阶两部分，涵盖商法和经济法的基本原则和内容。",
-        "keywords": "[\"\\u5546\\u6cd5\", \"\\u7ecf\\u6d4e\\u6cd5\", \"\\u57fa\\u672c\\u539f\\u5219\", \"\\u57fa\\u7840\\u77e5\\u8bc6\", \"\\u9ad8\\u96be\\u8fdb\\u9636\"]",
+        "content": "商法调整商业活动中的法律关系，经济法调整国家对经济活动的管理和调控。",
+        "keywords": "[\"\\u5546\\u4e1a\\u6d3b\\u52a8\", \"\\u6cd5\\u5f8b\\u5173\\u7cfb\", \"\\u7ecf\\u6d4e\\u8c03\\u63a7\"]",
         "difficulty": 3,
         "importance": 4,
-        "created_at": "2026-02-16T18:39:55.891217"
+        "created_at": "2026-02-16T18:51:08.846210"
       }
     },
     {
@@ -193,11 +215,22 @@
       "label": "KnowledgePoint",
       "properties": {
         "name": "其他法律法规",
-        "content": "包括夯实基础和高难进阶两部分，涵盖其他重要法律法规的内容。",
-        "keywords": "[\"\\u6cd5\\u5f8b\\u6cd5\\u89c4\", \"\\u57fa\\u7840\\u77e5\\u8bc6\", \"\\u9ad8\\u96be\\u8fdb\\u9636\"]",
+        "content": "其他法律法规包括劳动法、环境保护法等特定领域的法律规范。",
+        "keywords": "[\"\\u52b3\\u52a8\\u6cd5\", \"\\u73af\\u5883\\u4fdd\\u62a4\\u6cd5\", \"\\u7279\\u5b9a\\u9886\\u57df\"]",
         "difficulty": 3,
         "importance": 4,
-        "created_at": "2026-02-16T18:39:55.891217"
+        "created_at": "2026-02-16T18:51:08.846217"
+      }
+    },
+    {
+      "id": "question_我国的最高国家权力机关是？",
+      "label": "Question",
+      "properties": {
+        "content": "我国的最高国家权力机关是？",
+        "answer": "A",
+        "analysis": "根据宪法规定，全国人民代表大会是我国的最高国家权力机关。",
+        "difficulty": 3,
+        "created_at": "2026-02-16T18:51:08.846219"
       }
     }
   ],
@@ -236,6 +269,16 @@
       "type": "BELONGS_TO_TOPIC",
       "start_node": {
         "value": "kp_历史常识"
+      },
+      "end_node": {
+        "value": "topic_人文常识"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_下列哪部作品是鲁迅所著？"
       },
       "end_node": {
         "value": "topic_人文常识"
@@ -296,6 +339,16 @@
       "type": "BELONGS_TO_TOPIC",
       "start_node": {
         "value": "kp_生活常识"
+      },
+      "end_node": {
+        "value": "topic_科技常识"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_下列哪个科学家提出了相对论？"
       },
       "end_node": {
         "value": "topic_科技常识"
@@ -366,6 +419,16 @@
       "type": "BELONGS_TO_TOPIC",
       "start_node": {
         "value": "kp_其他法律法规"
+      },
+      "end_node": {
+        "value": "topic_法律常识"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_我国的最高国家权力机关是？"
       },
       "end_node": {
         "value": "topic_法律常识"

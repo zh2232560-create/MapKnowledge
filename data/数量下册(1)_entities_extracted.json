@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "chapter_数量关系",
+      "label": "Chapter",
+      "properties": {
+        "name": "数量关系",
+        "created_at": "2026-02-16T18:53:37.512891"
+      }
+    },
+    {
+      "id": "topic_核心方法",
+      "label": "Topic",
+      "properties": {
+        "name": "核心方法",
+        "created_at": "2026-02-16T18:53:37.512903"
+      }
+    },
+    {
+      "id": "kp_代入排除法",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "代入排除法",
+        "content": "代入排除法是解决年龄问题的一种常用方法。当题目问最小值时，从选项中从小到大依次代入选项验证；当题目问最大值时，从大到小依次代入选项验证。",
+        "keywords": "[\"\\u4ee3\\u5165\\u6392\\u9664\\u6cd5\", \"\\u5e74\\u9f84\\u95ee\\u9898\", \"\\u6700\\u5c0f\\u503c\", \"\\u6700\\u5927\\u503c\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-16T18:53:37.512923"
+      }
+    },
+    {
+      "id": "kp_数字特性法",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "数字特性法",
+        "content": "数字特性法是通过分析数字的奇偶性、整除性等特性来解决问题的方法。例如，如果一个方程中的某些项为偶数，则其他项也必须满足相应的奇偶性。",
+        "keywords": "[\"\\u6570\\u5b57\\u7279\\u6027\\u6cd5\", \"\\u5947\\u5076\\u6027\", \"\\u6574\\u9664\\u6027\", \"\\u65b9\\u7a0b\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-16T18:53:37.512931"
+      }
+    },
+    {
+      "id": "question_2024年甲、乙、丙三人的年龄之和与2034年甲的年龄相同，且乙的年龄小于甲但大于丙。若甲、乙的年龄",
+      "label": "Question",
+      "properties": {
+        "content": "2024年甲、乙、丙三人的年龄之和与2034年甲的年龄相同，且乙的年龄小于甲但大于丙。若甲、乙的年龄之差大于乙、丙的年龄之差，问2024年甲的年龄最小是多少岁？\nA. 8\nB. 7\nC. 6\nD. 9",
+        "answer": "D",
+        "analysis": "根据题意，可以得到乙+丙=10。由于乙>5岁，优先考虑代入排除法。代入D项，当2024年甲为9岁时，可得9–乙>乙–丙，解得乙<6岁，结合乙>5岁，则乙=6岁，丙=10–6=4岁，满足题干所有条件，故正确答案为D。",
+        "difficulty": 3,
+        "created_at": "2026-02-16T18:53:37.512935"
+      }
+    },
+    {
+      "id": "question_四个班招募96名志愿者，其中C班志愿者人数为x人，D班志愿者人数为y人，B班志愿者人数为（x+4）人",
+      "label": "Question",
+      "properties": {
+        "content": "四个班招募96名志愿者，其中C班志愿者人数为x人，D班志愿者人数为y人，B班志愿者人数为（x+4）人。已知2x+y=60，且D班志愿者人数比其他三个班都少，问D班最多有多少名志愿者？\nA. 18\nB. 19\nC. 20\nD. 21",
+        "answer": "A",
+        "analysis": "根据题意，2x和60均为偶数，可知y为偶数，结合选项，可排除B、D两项。由于所求为最多，优先代入C项验证：当y=20时，解得x=20，即C班、D班志愿者人数均为20人，不满足“D班志愿者人数比其他三个班都少”这个条件，排除C项，A项当选。",
+        "difficulty": 3,
+        "created_at": "2026-02-16T18:53:37.512939"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "BELONGS_TO_CHAPTER",
+      "start_node": {
+        "value": "topic_核心方法"
+      },
+      "end_node": {
+        "value": "chapter_数量关系"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_代入排除法"
+      },
+      "end_node": {
+        "value": "topic_核心方法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_数字特性法"
+      },
+      "end_node": {
+        "value": "topic_核心方法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_2024年甲、乙、丙三人的年龄之和与2034年甲的年龄相同，且乙的年龄小于甲但大于丙。若甲、乙的年龄"
+      },
+      "end_node": {
+        "value": "topic_核心方法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_四个班招募96名志愿者，其中C班志愿者人数为x人，D班志愿者人数为y人，B班志愿者人数为（x+4）人"
+      },
+      "end_node": {
+        "value": "topic_核心方法"
+      },
+      "properties": {}
+    }
+  ]
+}

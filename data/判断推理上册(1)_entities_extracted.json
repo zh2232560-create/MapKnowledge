@@ -1,0 +1,163 @@
+{
+  "nodes": [
+    {
+      "id": "chapter_判断推理",
+      "label": "Chapter",
+      "properties": {
+        "name": "判断推理",
+        "created_at": "2026-02-16T18:48:02.103807"
+      }
+    },
+    {
+      "id": "topic_图形推理",
+      "label": "Topic",
+      "properties": {
+        "name": "图形推理",
+        "created_at": "2026-02-16T18:48:02.103824"
+      }
+    },
+    {
+      "id": "kp_平移",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "平移",
+        "content": "图形在平面上进行水平或垂直方向的移动，保持图形的形状和大小不变。",
+        "keywords": "[\"\\u5e73\\u79fb\", \"\\u4f4d\\u7f6e\\u89c4\\u5f8b\", \"\\u56fe\\u5f62\\u79fb\\u52a8\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-16T18:48:02.103838"
+      }
+    },
+    {
+      "id": "kp_旋转、翻转",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "旋转、翻转",
+        "content": "图形在平面上进行旋转或翻转，保持图形的形状和大小不变。",
+        "keywords": "[\"\\u65cb\\u8f6c\", \"\\u7ffb\\u8f6c\", \"\\u4f4d\\u7f6e\\u89c4\\u5f8b\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-16T18:48:02.103844"
+      }
+    },
+    {
+      "id": "kp_加减同异",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "加减同异",
+        "content": "图形通过叠加、相减、相同部分保留或不同部分保留等方式形成新的图形。",
+        "keywords": "[\"\\u52a0\\u51cf\\u540c\\u5f02\", \"\\u6837\\u5f0f\\u89c4\\u5f8b\", \"\\u56fe\\u5f62\\u53e0\\u52a0\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-16T18:48:02.103849"
+      }
+    },
+    {
+      "id": "kp_黑白运算",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "黑白运算",
+        "content": "图形中的黑白部分通过特定的运算规则（如黑+黑=白）形成新的图形。",
+        "keywords": "[\"\\u9ed1\\u767d\\u8fd0\\u7b97\", \"\\u6837\\u5f0f\\u89c4\\u5f8b\", \"\\u56fe\\u5f62\\u8fd0\\u7b97\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-16T18:48:02.103855"
+      }
+    },
+    {
+      "id": "kp_对称性",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "对称性",
+        "content": "图形具有轴对称或中心对称的特性。",
+        "keywords": "[\"\\u5bf9\\u79f0\\u6027\", \"\\u5c5e\\u6027\\u89c4\\u5f8b\", \"\\u8f74\\u5bf9\\u79f0\", \"\\u4e2d\\u5fc3\\u5bf9\\u79f0\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-16T18:48:02.103858"
+      }
+    },
+    {
+      "id": "question_从所给的四个选项中，选择最合适的一个填入问号处，使之呈现一定的规律性。",
+      "label": "Question",
+      "properties": {
+        "content": "从所给的四个选项中，选择最合适的一个填入问号处，使之呈现一定的规律性。",
+        "answer": "A",
+        "analysis": "根据平移规律，图形依次向右平移一个单位。",
+        "difficulty": 3,
+        "created_at": "2026-02-16T18:48:02.103860"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "BELONGS_TO_CHAPTER",
+      "start_node": {
+        "value": "topic_图形推理"
+      },
+      "end_node": {
+        "value": "chapter_判断推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_平移"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_旋转、翻转"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_加减同异"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_黑白运算"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_对称性"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_从所给的四个选项中，选择最合适的一个填入问号处，使之呈现一定的规律性。"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    }
+  ]
+}

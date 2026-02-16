@@ -1,0 +1,373 @@
+{
+  "nodes": [
+    {
+      "id": "chapter_常识判断",
+      "label": "Chapter",
+      "properties": {
+        "name": "常识判断",
+        "created_at": "2026-02-16T18:52:14.915221"
+      }
+    },
+    {
+      "id": "topic_人文常识",
+      "label": "Topic",
+      "properties": {
+        "name": "人文常识",
+        "created_at": "2026-02-16T18:52:14.915240"
+      }
+    },
+    {
+      "id": "kp_文化常识",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "文化常识",
+        "content": "文化常识包括各种文化现象、文化活动和文化成果，如节日、习俗、艺术等。",
+        "keywords": "[\"\\u6587\\u5316\\u73b0\\u8c61\", \"\\u6587\\u5316\\u6d3b\\u52a8\", \"\\u6587\\u5316\\u6210\\u679c\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-16T18:52:14.915266"
+      }
+    },
+    {
+      "id": "kp_文学常识",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "文学常识",
+        "content": "文学常识涉及中外文学作品、作家及其创作背景，包括诗歌、小说、散文等。",
+        "keywords": "[\"\\u6587\\u5b66\\u4f5c\\u54c1\", \"\\u4f5c\\u5bb6\", \"\\u521b\\u4f5c\\u80cc\\u666f\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-16T18:52:14.915274"
+      }
+    },
+    {
+      "id": "kp_历史常识",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "历史常识",
+        "content": "历史常识涵盖中国及世界历史的重要事件、人物和时期，以及历史发展脉络。",
+        "keywords": "[\"\\u91cd\\u8981\\u4e8b\\u4ef6\", \"\\u5386\\u53f2\\u4eba\\u7269\", \"\\u5386\\u53f2\\u65f6\\u671f\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-16T18:52:14.915280"
+      }
+    },
+    {
+      "id": "question_下列哪位诗人不属于唐代？",
+      "label": "Question",
+      "properties": {
+        "content": "下列哪位诗人不属于唐代？",
+        "answer": "C",
+        "analysis": "苏轼是宋代的诗人，而其他选项均为唐代诗人。",
+        "difficulty": 2,
+        "created_at": "2026-02-16T18:52:14.915285"
+      }
+    },
+    {
+      "id": "topic_科技常识",
+      "label": "Topic",
+      "properties": {
+        "name": "科技常识",
+        "created_at": "2026-02-16T18:52:14.915288"
+      }
+    },
+    {
+      "id": "kp_物理常识",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "物理常识",
+        "content": "物理常识包括力学、光学、热学、电磁学等基本原理和应用。",
+        "keywords": "[\"\\u529b\\u5b66\", \"\\u5149\\u5b66\", \"\\u70ed\\u5b66\", \"\\u7535\\u78c1\\u5b66\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-16T18:52:14.915293"
+      }
+    },
+    {
+      "id": "kp_化学常识",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "化学常识",
+        "content": "化学常识涉及元素周期表、化学反应、有机化学和无机化学的基础知识。",
+        "keywords": "[\"\\u5143\\u7d20\\u5468\\u671f\\u8868\", \"\\u5316\\u5b66\\u53cd\\u5e94\", \"\\u6709\\u673a\\u5316\\u5b66\", \"\\u65e0\\u673a\\u5316\\u5b66\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-16T18:52:14.915299"
+      }
+    },
+    {
+      "id": "kp_生物常识",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "生物常识",
+        "content": "生物常识包括细胞结构、遗传学、生态学和人体生理学的基本概念。",
+        "keywords": "[\"\\u7ec6\\u80de\\u7ed3\\u6784\", \"\\u9057\\u4f20\\u5b66\", \"\\u751f\\u6001\\u5b66\", \"\\u4eba\\u4f53\\u751f\\u7406\\u5b66\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-16T18:52:14.915304"
+      }
+    },
+    {
+      "id": "question_下列哪种物质属于酸性氧化物？",
+      "label": "Question",
+      "properties": {
+        "content": "下列哪种物质属于酸性氧化物？",
+        "answer": "A",
+        "analysis": "二氧化碳（CO2）是一种酸性氧化物，可以与水反应生成碳酸。",
+        "difficulty": 2,
+        "created_at": "2026-02-16T18:52:14.915308"
+      }
+    },
+    {
+      "id": "topic_法律常识",
+      "label": "Topic",
+      "properties": {
+        "name": "法律常识",
+        "created_at": "2026-02-16T18:52:14.915311"
+      }
+    },
+    {
+      "id": "kp_宪法",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "宪法",
+        "content": "宪法是国家的根本大法，规定了国家的基本制度、公民的基本权利和义务。",
+        "keywords": "[\"\\u6839\\u672c\\u5927\\u6cd5\", \"\\u57fa\\u672c\\u5236\\u5ea6\", \"\\u516c\\u6c11\\u6743\\u5229\", \"\\u516c\\u6c11\\u4e49\\u52a1\"]",
+        "difficulty": 3,
+        "importance": 5,
+        "created_at": "2026-02-16T18:52:14.915316"
+      }
+    },
+    {
+      "id": "kp_行政法",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "行政法",
+        "content": "行政法是调整行政机关与公民、法人及其他组织之间关系的法律规范。",
+        "keywords": "[\"\\u884c\\u653f\\u673a\\u5173\", \"\\u516c\\u6c11\", \"\\u6cd5\\u4eba\", \"\\u6cd5\\u5f8b\\u89c4\\u8303\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-16T18:52:14.915327"
+      }
+    },
+    {
+      "id": "kp_民法与民事诉讼法",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "民法与民事诉讼法",
+        "content": "民法调整平等主体之间的财产关系和人身关系，民事诉讼法规定了民事诉讼程序。",
+        "keywords": "[\"\\u8d22\\u4ea7\\u5173\\u7cfb\", \"\\u4eba\\u8eab\\u5173\\u7cfb\", \"\\u6c11\\u4e8b\\u8bc9\\u8bbc\\u7a0b\\u5e8f\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-16T18:52:14.915332"
+      }
+    },
+    {
+      "id": "kp_刑法与刑事诉讼法",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "刑法与刑事诉讼法",
+        "content": "刑法规定了犯罪行为及其刑罚，刑事诉讼法规定了刑事诉讼程序。",
+        "keywords": "[\"\\u72af\\u7f6a\\u884c\\u4e3a\", \"\\u5211\\u7f5a\", \"\\u5211\\u4e8b\\u8bc9\\u8bbc\\u7a0b\\u5e8f\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-16T18:52:14.915338"
+      }
+    },
+    {
+      "id": "kp_商法与经济法",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "商法与经济法",
+        "content": "商法调整商业活动中的法律关系，经济法调整宏观经济调控和市场管理。",
+        "keywords": "[\"\\u5546\\u4e1a\\u6d3b\\u52a8\", \"\\u6cd5\\u5f8b\\u5173\\u7cfb\", \"\\u5b8f\\u89c2\\u7ecf\\u6d4e\\u8c03\\u63a7\", \"\\u5e02\\u573a\\u7ba1\\u7406\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-16T18:52:14.915344"
+      }
+    },
+    {
+      "id": "question_我国宪法规定的公民基本权利不包括以下哪一项？",
+      "label": "Question",
+      "properties": {
+        "content": "我国宪法规定的公民基本权利不包括以下哪一项？",
+        "answer": "D",
+        "analysis": "劳动报酬请求权属于劳动法范畴，不是宪法规定的公民基本权利。",
+        "difficulty": 2,
+        "created_at": "2026-02-16T18:52:14.915348"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "BELONGS_TO_CHAPTER",
+      "start_node": {
+        "value": "topic_人文常识"
+      },
+      "end_node": {
+        "value": "chapter_常识判断"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_文化常识"
+      },
+      "end_node": {
+        "value": "topic_人文常识"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_文学常识"
+      },
+      "end_node": {
+        "value": "topic_人文常识"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_历史常识"
+      },
+      "end_node": {
+        "value": "topic_人文常识"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_下列哪位诗人不属于唐代？"
+      },
+      "end_node": {
+        "value": "topic_人文常识"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_CHAPTER",
+      "start_node": {
+        "value": "topic_科技常识"
+      },
+      "end_node": {
+        "value": "chapter_常识判断"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_物理常识"
+      },
+      "end_node": {
+        "value": "topic_科技常识"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_化学常识"
+      },
+      "end_node": {
+        "value": "topic_科技常识"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_生物常识"
+      },
+      "end_node": {
+        "value": "topic_科技常识"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_下列哪种物质属于酸性氧化物？"
+      },
+      "end_node": {
+        "value": "topic_科技常识"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_CHAPTER",
+      "start_node": {
+        "value": "topic_法律常识"
+      },
+      "end_node": {
+        "value": "chapter_常识判断"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_宪法"
+      },
+      "end_node": {
+        "value": "topic_法律常识"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_行政法"
+      },
+      "end_node": {
+        "value": "topic_法律常识"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_民法与民事诉讼法"
+      },
+      "end_node": {
+        "value": "topic_法律常识"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_刑法与刑事诉讼法"
+      },
+      "end_node": {
+        "value": "topic_法律常识"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_商法与经济法"
+      },
+      "end_node": {
+        "value": "topic_法律常识"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_我国宪法规定的公民基本权利不包括以下哪一项？"
+      },
+      "end_node": {
+        "value": "topic_法律常识"
+      },
+      "properties": {}
+    }
+  ]
+}

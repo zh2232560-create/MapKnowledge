@@ -75,13 +75,17 @@ class KnowledgeGraphImporter:
         if 'nodes' in data:
             nodes_list = data['nodes']
             if isinstance(nodes_list, list):
-                # 新格式: nodes是数组，每个节点有label字段
+                # 新格式: nodes是数组，每个节点有label、id和properties字段
                 nodes_by_label = {}
                 for node in nodes_list:
                     label = node.get('label', 'Node')
                     if label not in nodes_by_label:
                         nodes_by_label[label] = []
-                    nodes_by_label[label].append(node.get('properties', {}))
+                    
+                    # 合并 id 和 properties
+                    node_data = node.get('properties', {}).copy()
+                    node_data['id'] = node.get('id')
+                    nodes_by_label[label].append(node_data)
                 
                 for label, nodes in nodes_by_label.items():
                     self.import_nodes(label, nodes)

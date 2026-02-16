@@ -1,0 +1,258 @@
+{
+  "nodes": [
+    {
+      "id": "chapter_第一章_文字资料",
+      "label": "Chapter",
+      "properties": {
+        "name": "第一章 文字资料",
+        "created_at": "2026-02-16T18:57:26.100400"
+      }
+    },
+    {
+      "id": "topic_增长量计算问题",
+      "label": "Topic",
+      "properties": {
+        "name": "增长量计算问题",
+        "created_at": "2026-02-16T18:57:26.100407"
+      }
+    },
+    {
+      "id": "kp_增长量计算公式",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "增长量计算公式",
+        "content": "增长量 = 现期量 × 增长率 / (1 + 增长率)",
+        "keywords": "[\"\\u589e\\u957f\\u91cf\", \"\\u73b0\\u671f\\u91cf\", \"\\u589e\\u957f\\u7387\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-16T18:57:26.100419"
+      }
+    },
+    {
+      "id": "question_2023年上半年，全国办理汽车转让登记业务1057万辆，同比增长5.3%。求增长量。",
+      "label": "Question",
+      "properties": {
+        "content": "2023年上半年，全国办理汽车转让登记业务1057万辆，同比增长5.3%。求增长量。",
+        "answer": "C",
+        "analysis": "根据公式：增长量=现期量×增长率/(1+增长率)，可得题干所求=1057×5.3%/(1+5.3%)≈53万辆，在C项范围内。",
+        "difficulty": 3,
+        "created_at": "2026-02-16T18:57:26.100423"
+      }
+    },
+    {
+      "id": "topic_混合增长率问题",
+      "label": "Topic",
+      "properties": {
+        "name": "混合增长率问题",
+        "created_at": "2026-02-16T18:57:26.100425"
+      }
+    },
+    {
+      "id": "kp_混合增长率口诀",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "混合增长率口诀",
+        "content": "整体增长率居中；整体增长率偏向基期量较大的（常用现期量代替基期量估算）。",
+        "keywords": "[\"\\u6df7\\u5408\\u589e\\u957f\\u7387\", \"\\u6574\\u4f53\\u589e\\u957f\\u7387\", \"\\u57fa\\u671f\\u91cf\"]",
+        "difficulty": 4,
+        "importance": 4,
+        "created_at": "2026-02-16T18:57:26.100430"
+      }
+    },
+    {
+      "id": "question_2023年上半年，全国新注册登记机动车1688万辆，同比增长1.9%；新注册登记汽车1175万辆，同",
+      "label": "Question",
+      "properties": {
+        "content": "2023年上半年，全国新注册登记机动车1688万辆，同比增长1.9%；新注册登记汽车1175万辆，同比增长5.8%。求非汽车类机动车的增长率。",
+        "answer": "D",
+        "analysis": "根据混合增长率口诀“整体增长率居中”，可得5.8%>1.9%>x%，排除B项。结合2023年上半年全国新注册登记非汽车类机动车1688–1175=513万辆＜新注册登记汽车1175万辆，可得5.8%–1.9%<1.9%–x%，解得x%<–2%，即减少了2%以上。",
+        "difficulty": 4,
+        "created_at": "2026-02-16T18:57:26.100432"
+      }
+    },
+    {
+      "id": "topic_现期比重问题",
+      "label": "Topic",
+      "properties": {
+        "name": "现期比重问题",
+        "created_at": "2026-02-16T18:57:26.100433"
+      }
+    },
+    {
+      "id": "kp_现期比重计算公式",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "现期比重计算公式",
+        "content": "比重 = 部分 / 整体",
+        "keywords": "[\"\\u6bd4\\u91cd\", \"\\u90e8\\u5206\", \"\\u6574\\u4f53\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-16T18:57:26.100437"
+      }
+    },
+    {
+      "id": "question_2023年6月末，新能源汽车保有量1620万辆，汽车保有量3.28亿辆。求新能源汽车保有量占汽车保有",
+      "label": "Question",
+      "properties": {
+        "content": "2023年6月末，新能源汽车保有量1620万辆，汽车保有量3.28亿辆。求新能源汽车保有量占汽车保有量的比重与当年上半年新注册登记新能源汽车数量占新注册登记汽车数量的比重相差多少个百分点？",
+        "answer": "C",
+        "analysis": "根据公式：比重=部分/整体，可得2023年6月末新能源汽车保有量占汽车保有量的比重与当年上半年新注册登记新能源汽车数量占新注册登记汽车数量的比重相差1620/32800 - 313/1175 ≈ -21%，即前者比后者约低21个百分点，与C项最接近。",
+        "difficulty": 3,
+        "created_at": "2026-02-16T18:57:26.100439"
+      }
+    },
+    {
+      "id": "topic_两期比重问题",
+      "label": "Topic",
+      "properties": {
+        "name": "两期比重问题",
+        "created_at": "2026-02-16T18:57:26.100441"
+      }
+    },
+    {
+      "id": "kp_两期比重差公式",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "两期比重差公式",
+        "content": "两期比重差 = (A/B) * (a-b) / (1+a)",
+        "keywords": "[\"\\u4e24\\u671f\\u6bd4\\u91cd\\u5dee\", \"A\", \"B\", \"a\", \"b\"]",
+        "difficulty": 4,
+        "importance": 4,
+        "created_at": "2026-02-16T18:57:26.100445"
+      }
+    },
+    {
+      "id": "question_2023年，我国互联网企业完成互联网业务收入17483亿元，同比增长6.8%；共投入研发经费943.",
+      "label": "Question",
+      "properties": {
+        "content": "2023年，我国互联网企业完成互联网业务收入17483亿元，同比增长6.8%；共投入研发经费943.2亿元，同比下降3.7%。求2023年，我国互联网企业投入的研发经费占业务收入的比重比上年下降了多少个百分点？",
+        "answer": "B",
+        "analysis": "根据公式：两期比重差=(A/B) * (a-b) / (1+a)，可得题干所求为943.2/17483 * (-3.7%-6.8%) / (1-3.7%) ≈ -0.6%，即2023年，我国互联网企业投入的研发经费占业务收入的比重比上年下降了约0.6个百分点。",
+        "difficulty": 4,
+        "created_at": "2026-02-16T18:57:26.100447"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "BELONGS_TO_CHAPTER",
+      "start_node": {
+        "value": "topic_增长量计算问题"
+      },
+      "end_node": {
+        "value": "chapter_第一章_文字资料"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_增长量计算公式"
+      },
+      "end_node": {
+        "value": "topic_增长量计算问题"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_2023年上半年，全国办理汽车转让登记业务1057万辆，同比增长5.3%。求增长量。"
+      },
+      "end_node": {
+        "value": "topic_增长量计算问题"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_CHAPTER",
+      "start_node": {
+        "value": "topic_混合增长率问题"
+      },
+      "end_node": {
+        "value": "chapter_第一章_文字资料"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_混合增长率口诀"
+      },
+      "end_node": {
+        "value": "topic_混合增长率问题"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_2023年上半年，全国新注册登记机动车1688万辆，同比增长1.9%；新注册登记汽车1175万辆，同"
+      },
+      "end_node": {
+        "value": "topic_混合增长率问题"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_CHAPTER",
+      "start_node": {
+        "value": "topic_现期比重问题"
+      },
+      "end_node": {
+        "value": "chapter_第一章_文字资料"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_现期比重计算公式"
+      },
+      "end_node": {
+        "value": "topic_现期比重问题"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_2023年6月末，新能源汽车保有量1620万辆，汽车保有量3.28亿辆。求新能源汽车保有量占汽车保有"
+      },
+      "end_node": {
+        "value": "topic_现期比重问题"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_CHAPTER",
+      "start_node": {
+        "value": "topic_两期比重问题"
+      },
+      "end_node": {
+        "value": "chapter_第一章_文字资料"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_两期比重差公式"
+      },
+      "end_node": {
+        "value": "topic_两期比重问题"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_2023年，我国互联网企业完成互联网业务收入17483亿元，同比增长6.8%；共投入研发经费943."
+      },
+      "end_node": {
+        "value": "topic_两期比重问题"
+      },
+      "properties": {}
+    }
+  ]
+}
