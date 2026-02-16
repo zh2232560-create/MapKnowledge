@@ -4,12 +4,13 @@ PDF 实体抽取脚本
 
 使用方法:
 1. 安装依赖: pip install pdfplumber openai
-2. 设置 API Key: set OPENAI_API_KEY=your_key 或 set DASHSCOPE_API_KEY=your_key
+2. 设置 API Key: set OPENAI_API_KEY=your_key 或 set DASHSCOPE_API_KEY=your_key 或 set DASHSCOPE_CLAUDE_API_KEY=your_key
 3. 运行: python scripts/extract_entities.py data/常识上册.pdf
 
 支持的 LLM:
 - OpenAI GPT (需要 OPENAI_API_KEY)
 - 阿里通义千问 (需要 DASHSCOPE_API_KEY)
+- 阿里百炼大模型 (需要 DASHSCOPE_CLAUDE_API_KEY)
 - 本地 Ollama (需要运行 ollama serve)
 """
 import os
@@ -95,7 +96,7 @@ class EntityExtractor:
         初始化实体抽取器
         
         Args:
-            llm_type: "openai", "dashscope", "doubao", "ollama" 或 "auto"
+            llm_type: "openai", "dashscope", "dashscope_claude", "doubao", "ollama" 或 "auto"
         """
         self.llm_type = self._detect_llm(llm_type)
         self.client = None
@@ -106,7 +107,9 @@ class EntityExtractor:
         if llm_type != "auto":
             return llm_type
         
-        if os.getenv("ARK_API_KEY"):
+        if os.getenv("DASHSCOPE_CLAUDE_API_KEY"):
+            return "dashscope_claude"
+        elif os.getenv("ARK_API_KEY"):
             return "doubao"
         elif os.getenv("OPENAI_API_KEY"):
             return "openai"
@@ -117,7 +120,19 @@ class EntityExtractor:
     
     def _init_client(self):
         """初始化 LLM 客户端"""
-        if self.llm_type == "doubao":
+        if self.llm_type == "dashscope_claude":
+            try:
+                from openai import OpenAI
+                self.client = OpenAI(
+                    base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
+                    api_key=os.getenv("DASHSCOPE_CLAUDE_API_KEY")
+                )
+                print("使用阿里百炼大模型平台")
+            except ImportError:
+                print("请安装 openai: pip install openai")
+                sys.exit(1)
+        
+        elif self.llm_type == "doubao":
             try:
                 from openai import OpenAI
                 self.client = OpenAI(
@@ -165,7 +180,18 @@ class EntityExtractor:
     
     def _call_llm(self, prompt: str, system_prompt: str = "") -> str:
         """调用 LLM"""
-        if self.llm_type == "doubao":
+        if self.llm_type == "dashscope_claude":
+            response = self.client.chat.completions.create(
+                model="claude-3-5-sonnet",
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.3
+            )
+            return response.choices[0].message.content
+        
+        elif self.llm_type == "doubao":
             response = self.client.chat.completions.create(
                 model="doubao-seed-1-6-flash-250828",
                 messages=[
@@ -511,7 +537,7 @@ def main():
     parser = argparse.ArgumentParser(description="从 PDF 提取知识点")
     parser.add_argument("pdf_path", help="PDF 文件路径")
     parser.add_argument("--output", "-o", default=None, help="输出 JSON 文件路径")
-    parser.add_argument("--llm", choices=["openai", "dashscope", "doubao", "ollama", "auto"], 
+    parser.add_argument("--llm", choices=["openai", "dashscope", "dashscope_claude", "doubao", "ollama", "auto"], 
                         default="auto", help="选择 LLM")
     parser.add_argument("--pages", type=str, default=None, 
                         help="指定页码范围，如 1-10")
