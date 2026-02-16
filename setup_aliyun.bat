@@ -61,31 +61,22 @@ echo.
 
 REM 测试 API 连接
 echo [4/4] 测试 API 连接...
-python << PYEOF
-import os
-import sys
-try:
-    from openai import OpenAI
-    api_key = os.getenv('DASHSCOPE_CLAUDE_API_KEY', 'sk-69b4138e853648a79659aa01cc859dd6')
-    client = OpenAI(
-        base_url='https://dashscope.aliyuncs.com/compatible-mode/v1',
-        api_key=api_key
-    )
-    print('[*] 发送测试请求...')
-    response = client.chat.completions.create(
-        model='claude-3-5-sonnet',
-        messages=[{'role': 'user', 'content': 'test'}],
-        max_tokens=5
-    )
-    print('[OK] API 连接成功！')
-except ImportError:
-    print('[!] openai 模块未安装')
-except Exception as e:
-    if '401' in str(e):
-        print('[!] API Key 无效')
-    else:
-        print('[!] 连接失败: ' + str(e)[:80])
-PYEOF
+
+REM 创建临时 Python 脚本
+(
+    echo import os
+    echo try:
+    echo     from openai import OpenAI
+    echo     api_key = os.getenv('DASHSCOPE_CLAUDE_API_KEY', 'sk-69b4138e853648a79659aa01cc859dd6')
+    echo     client = OpenAI(base_url='https://dashscope.aliyuncs.com/compatible-mode/v1', api_key=api_key)
+    echo     response = client.chat.completions.create(model='claude-3-5-sonnet', messages=[{'role': 'user', 'content': 't'}], max_tokens=5)
+    echo     print('[V] API connection OK')
+    echo except:
+    echo     print('[!] API test failed or network issue')
+) > .test_api_temp.py
+
+python .test_api_temp.py 2>nul
+del .test_api_temp.py 2>nul
 
 echo.
 echo ===============================================
