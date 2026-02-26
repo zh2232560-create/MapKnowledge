@@ -153,10 +153,12 @@ class BatchProcessor:
         将提取的实体转换为知识图谱格式
         
         转换为包含 nodes 和 relationships 的格式
+        支持知识点与题目的关联
         """
         nodes = []
         relationships = []
         node_ids = set()
+        question_id_map = {}  # 用于存储题目ID和知识点的映射
         
         if not entities or "topics" not in entities:
             return {"nodes": [], "relationships": []}
@@ -232,8 +234,11 @@ class BatchProcessor:
             
             # 处理题目
             for question in topic.get("questions", []):
-                q_content = question.get("content", "Unknown")[:50]  # 用前50字作为ID
-                q_id = f"question_{q_content.replace(' ', '_')}"
+                # 使用 question 的 id 字段，或生成一个唯一的 ID
+                q_id = question.get("id")
+                if not q_id:
+                    q_content = question.get("content", "Unknown")[:50]
+                    q_id = f"question_{q_content.replace(' ', '_')}"
                 
                 # 添加题目节点
                 if q_id not in node_ids:
@@ -255,6 +260,18 @@ class BatchProcessor:
                         "type": "BELONGS_TO_TOPIC",
                         "start_node": {"value": q_id},
                         "end_node": {"value": topic_id},
+                        "properties": {}
+                    })
+                
+                # ⭐ 处理题目与知识点的关联关系
+                related_kps = question.get("related_knowledge_points", [])
+                for kp_name in related_kps:
+                    kp_id = f"kp_{kp_name.replace(' ', '_')}"
+                    # 创建题目与知识点的关联关系
+                    relationships.append({
+                        "type": "RELATED_TO_KNOWLEDGE_POINT",
+                        "start_node": {"value": q_id},
+                        "end_node": {"value": kp_id},
                         "properties": {}
                     })
         

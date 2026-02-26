@@ -5,15 +5,15 @@
       "label": "Chapter",
       "properties": {
         "name": "数量关系",
-        "created_at": "2026-02-16T18:52:59.152487"
+        "created_at": "2026-02-18T19:53:42.399659"
       }
     },
     {
-      "id": "topic_数学运算",
+      "id": "topic_核心方法",
       "label": "Topic",
       "properties": {
-        "name": "数学运算",
-        "created_at": "2026-02-16T18:52:59.152494"
+        "name": "核心方法",
+        "created_at": "2026-02-18T19:53:42.399670"
       }
     },
     {
@@ -21,11 +21,11 @@
       "label": "KnowledgePoint",
       "properties": {
         "name": "代入排除法",
-        "content": "代入排除法是一种通过将选项代入题干条件中，逐步排除不符合条件的选项，从而找到正确答案的方法。",
+        "content": "通过代入选项来排除错误答案，从而找到正确答案的方法。",
         "keywords": "[\"\\u4ee3\\u5165\", \"\\u6392\\u9664\", \"\\u9009\\u9879\"]",
         "difficulty": 3,
         "importance": 4,
-        "created_at": "2026-02-16T18:52:59.152504"
+        "created_at": "2026-02-18T19:53:42.399691"
       }
     },
     {
@@ -33,11 +33,11 @@
       "label": "KnowledgePoint",
       "properties": {
         "name": "数字特性法",
-        "content": "数字特性法是利用数字的特殊性质（如奇偶性、整除性等）来解决问题的方法。",
-        "keywords": "[\"\\u6570\\u5b57\\u7279\\u6027\", \"\\u5947\\u5076\\u6027\", \"\\u6574\\u9664\\u6027\"]",
+        "content": "利用数字的特性（如奇偶性、倍数等）来解决问题的方法。",
+        "keywords": "[\"\\u6570\\u5b57\\u7279\\u6027\", \"\\u5947\\u5076\\u6027\", \"\\u500d\\u6570\"]",
         "difficulty": 3,
         "importance": 4,
-        "created_at": "2026-02-16T18:52:59.152508"
+        "created_at": "2026-02-18T19:53:42.399700"
       }
     },
     {
@@ -45,55 +45,178 @@
       "label": "KnowledgePoint",
       "properties": {
         "name": "方程法",
-        "content": "方程法是通过建立方程或方程组来求解问题的方法，适用于多种类型的数学运算题目。",
-        "keywords": "[\"\\u65b9\\u7a0b\", \"\\u65b9\\u7a0b\\u7ec4\", \"\\u6c42\\u89e3\"]",
+        "content": "通过建立方程来解决数学问题的方法。",
+        "keywords": "[\"\\u65b9\\u7a0b\", \"\\u53d8\\u91cf\", \"\\u89e3\\u65b9\\u7a0b\"]",
         "difficulty": 3,
         "importance": 4,
-        "created_at": "2026-02-16T18:52:59.152510"
+        "created_at": "2026-02-18T19:53:42.399707"
       }
     },
     {
-      "id": "question_2024年甲、乙、丙三人的年龄之和与2034年甲的年龄相同，且甲、乙的年龄之差大于乙、丙的年龄之差。",
+      "id": "kp_赋值法",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "赋值法",
+        "content": "通过给定某些变量的具体数值来简化问题的方法。",
+        "keywords": "[\"\\u8d4b\\u503c\", \"\\u53d8\\u91cf\", \"\\u7b80\\u5316\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-18T19:53:42.399713"
+      }
+    },
+    {
+      "id": "kp_线段法",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "线段法",
+        "content": "通过绘制线段图来表示和解决问题的方法。",
+        "keywords": "[\"\\u7ebf\\u6bb5\", \"\\u56fe\\u5f62\", \"\\u6bd4\\u4f8b\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-18T19:53:42.399718"
+      }
+    },
+    {
+      "id": "question_001",
       "label": "Question",
       "properties": {
         "content": "2024年甲、乙、丙三人的年龄之和与2034年甲的年龄相同，且甲、乙的年龄之差大于乙、丙的年龄之差。已知乙的年龄小于甲但大于丙，问2024年甲的年龄最小可能为多少岁？",
         "answer": "A",
-        "analysis": "设2024年甲、乙、丙的年龄分别为x, y, z，则有x + y + z = x + 10。又因为x - y > y - z，且y < x < z。通过代入排除法可以得出x的最小值为13。",
+        "analysis": "设2024年甲、乙、丙的年龄分别为x, y, z，则有x + y + z = x + 10，即y + z = 10。又因为x - y > y - z，且y < x < z，可以推导出x的最小值为13。",
         "difficulty": 3,
-        "created_at": "2026-02-16T18:52:59.152512"
+        "created_at": "2026-02-18T19:53:42.399722"
       }
     },
     {
-      "id": "question_某年级从A、B、C、D四个班招募96名志愿者，其中A班志愿者人数占总数的1/3，B班志愿者人数比C班",
+      "id": "question_002",
       "label": "Question",
       "properties": {
         "content": "某年级从A、B、C、D四个班招募96名志愿者，其中A班志愿者人数占总数的1/3，B班志愿者人数比C班多4人，D班志愿者人数比其他三个班都少。问D班最多能有多少名志愿者？",
         "answer": "B",
-        "analysis": "设A班志愿者人数为a，B班为b，C班为c，D班为d。则a = 96 * 1/3 = 32，b = c + 4，且d < a, d < b, d < c。通过代入排除法可以得出d的最大值为19。",
+        "analysis": "设A班志愿者人数为x，则x = 96 / 3 = 32。设B班志愿者人数为y，C班志愿者人数为z，则y = z + 4。D班志愿者人数为w，且w < x, w < y, w < z。通过代入排除法可以得出D班最多有19名志愿者。",
         "difficulty": 3,
-        "created_at": "2026-02-16T18:52:59.152513"
+        "created_at": "2026-02-18T19:53:42.399725"
       }
     },
     {
-      "id": "question_在一次团体操表演中，演员方阵的成员需要贴上红色、黄色和白色三种颜色之一的背贴。一位演员看到贴红色背贴",
+      "id": "question_003",
       "label": "Question",
       "properties": {
         "content": "在一次团体操表演中，演员方阵的成员需要贴上红色、黄色和白色三种颜色之一的背贴。一位演员看到贴红色背贴的演员是除自己之外所有演员的1/5，另一位演员则看到贴红色背贴的演员是除自己之外所有演员的2/11。问这次团体操的演员有多少人？",
         "answer": "C",
         "analysis": "设总人数为n，红色背贴的人数为r。根据题意，有r = (n-1)/5 和 r = 2(n-1)/11。通过解方程可以得出n = 110。",
         "difficulty": 3,
-        "created_at": "2026-02-16T18:52:59.152515"
+        "created_at": "2026-02-18T19:53:42.399728"
       }
     },
     {
-      "id": "question_农学院学生采集了甲、乙两个品种的水稻样本各若干份，其中36份为有效样本。已知乙品种采集样本30份，那",
+      "id": "question_004",
       "label": "Question",
       "properties": {
         "content": "农学院学生采集了甲、乙两个品种的水稻样本各若干份，其中36份为有效样本。已知乙品种采集样本30份，那么甲品种的有效样本比乙品种的无效样本：",
         "answer": "A",
-        "analysis": "设甲品种的有效样本为x，乙品种的有效样本为y。则x + y = 36，乙品种的无效样本为30 - y。通过方程法可以得出x - (30 - y) = 6。",
+        "analysis": "设甲品种的有效样本为x，乙品种的有效样本为y，则x + y = 36。已知乙品种采集样本30份，假设乙品种的有效样本为y，则无效样本为30 - y。通过方程可以得出x = y + 6。",
         "difficulty": 3,
-        "created_at": "2026-02-16T18:52:59.152516"
+        "created_at": "2026-02-18T19:53:42.399731"
+      }
+    },
+    {
+      "id": "question_005",
+      "label": "Question",
+      "properties": {
+        "content": "某连锁餐厅甲、乙、丙三个店面2024年销售额总计为1000万元，利润总计为120万元。其中，甲店面的销售额是利润的10倍，是丙店面销售额的2/3，乙店面的利润比甲店面多10万元且比丙店面少10万元。问乙店面的销售额是利润的多少倍？",
+        "answer": "B",
+        "analysis": "设甲店面的销售额为x，利润为y，则x = 10y。设丙店面的销售额为z，则x = 2z/3。设乙店面的销售额为a，利润为b，则b = y + 10，b = c - 10。通过方程可以得出乙店面的销售额是利润的6.25倍。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T19:53:42.399733"
+      }
+    },
+    {
+      "id": "question_006",
+      "label": "Question",
+      "properties": {
+        "content": "某水产养殖公司拥有若干幼体培育车间、育苗车间和藻类池。已知幼体培育车间的水体与育苗车间的水体之比为1∶4，藻类池的水体是幼体培育车间水体的50%。若每200m3水体需配备1名管理人员，则幼体培育车间需要的管理人员比育苗车间少12人。问该公司共配备了多名管理人员？",
+        "answer": "A",
+        "analysis": "设幼体培育车间的水体为x，则育苗车间的水体为4x，藻类池的水体为0.5x。设幼体培育车间需要的管理人员为a，育苗车间需要的管理人员为b，则a = x/200，b = 4x/200。通过方程可以得出该公司共配备了25名管理人员。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T19:53:42.399736"
+      }
+    },
+    {
+      "id": "question_007",
+      "label": "Question",
+      "properties": {
+        "content": "某企业今年3月节电量是1月的1.2倍、2月的1.5倍，已知2月节电量比1月少4万度，问今年一季度企业节电量为多少万度？",
+        "answer": "C",
+        "analysis": "设1月节电量为x，则2月节电量为x - 4，3月节电量为1.2x。通过方程可以得出一季度企业节电量为56万度。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T19:53:42.399739"
+      }
+    },
+    {
+      "id": "question_008",
+      "label": "Question",
+      "properties": {
+        "content": "运送一批货物，第一趟派出10辆大车，第二趟又增派15辆小车，运输量比第一趟高50%。问每辆大车的载货量是小车的多少倍？",
+        "answer": "B",
+        "analysis": "设每辆大车的载货量为x，每辆小车的载货量为y，则10x * 1.5 = 10x + 15y。通过方程可以得出每辆大车的载货量是小车的2.5倍。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T19:53:42.399742"
+      }
+    },
+    {
+      "id": "question_009",
+      "label": "Question",
+      "properties": {
+        "content": "甲、乙两个单位的岗位分为管理岗和普通岗。已知甲公司的普通岗人数是管理岗的17倍，乙公司的普通岗人数是管理岗的22倍。若两个公司共有300人，那么甲公司的管理岗人数比乙公司：",
+        "answer": "A",
+        "analysis": "设甲公司的管理岗人数为x，则普通岗人数为17x。设乙公司的管理岗人数为y，则普通岗人数为22y。通过方程可以得出甲公司的管理岗人数比乙公司多3人。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T19:53:42.399745"
+      }
+    },
+    {
+      "id": "question_010",
+      "label": "Question",
+      "properties": {
+        "content": "某企业采购甲、乙和丙三种不同配置的电脑，已知甲、乙、丙各1台共2.3万元，2台甲加1台乙的总价比1台丙的单价高2.2万元。该企业最终决定采购1台甲、3台乙和7台丙，问采购总费用为多少万元？",
+        "answer": "C",
+        "analysis": "设甲、乙、丙的价格分别为x, y, z，则x + y + z = 2.3，2x + y = z + 2.2。通过方程可以得出采购总费用为7.6万元。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T19:53:42.399747"
+      }
+    },
+    {
+      "id": "question_011",
+      "label": "Question",
+      "properties": {
+        "content": "甲、乙两条生产线生产同一种产品，且甲的效率是乙的1.5倍，现接到A、B两个订单。已知甲完成A订单和乙完成B订单均需要8小时，问甲完成B订单的用时比乙完成A订单的用时少多长时间？",
+        "answer": "C",
+        "analysis": "设甲完成B订单的时间为t，则乙完成A订单的时间为1.5t。通过方程可以得出甲完成B订单的用时比乙完成A订单的用时少7小时20分钟。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T19:53:42.399750"
+      }
+    },
+    {
+      "id": "question_012",
+      "label": "Question",
+      "properties": {
+        "content": "从甲地到乙地为下坡路，从乙地到丙地为上坡路。小张从甲地开车经过乙地前往丙地，此后原路返回。其上坡速度是下坡的60%。已知他从甲地到乙地用时正好是去程全程用时的一半，则他返程全程用时比去程全程用时：",
+        "answer": "D",
+        "analysis": "设甲地到乙地的距离为d1，乙地到丙地的距离为d2。设下坡速度为v，则上坡速度为0.6v。通过赋值法可以得出返程全程用时比去程全程用时多10%以上。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T19:53:42.399753"
+      }
+    },
+    {
+      "id": "question_013",
+      "label": "Question",
+      "properties": {
+        "content": "某人买了甲、乙两种金融产品，期限结束后，甲、乙两种金融产品收益率分别是5%和3%，最终收益率为3.5%，那么购买甲、乙两种金融产品的金额比例为：",
+        "answer": "B",
+        "analysis": "设购买甲、乙两种金融产品的金额分别为x, y，则(5%x + 3%y) / (x + y) = 3.5%。通过线段法可以得出购买甲、乙两种金融产品的金额比例为1∶2。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T19:53:42.399757"
       }
     }
   ],
@@ -101,7 +224,7 @@
     {
       "type": "BELONGS_TO_CHAPTER",
       "start_node": {
-        "value": "topic_数学运算"
+        "value": "topic_核心方法"
       },
       "end_node": {
         "value": "chapter_数量关系"
@@ -114,7 +237,7 @@
         "value": "kp_代入排除法"
       },
       "end_node": {
-        "value": "topic_数学运算"
+        "value": "topic_核心方法"
       },
       "properties": {}
     },
@@ -124,7 +247,7 @@
         "value": "kp_数字特性法"
       },
       "end_node": {
-        "value": "topic_数学运算"
+        "value": "topic_核心方法"
       },
       "properties": {}
     },
@@ -134,47 +257,287 @@
         "value": "kp_方程法"
       },
       "end_node": {
-        "value": "topic_数学运算"
+        "value": "topic_核心方法"
       },
       "properties": {}
     },
     {
       "type": "BELONGS_TO_TOPIC",
       "start_node": {
-        "value": "question_2024年甲、乙、丙三人的年龄之和与2034年甲的年龄相同，且甲、乙的年龄之差大于乙、丙的年龄之差。"
+        "value": "kp_赋值法"
       },
       "end_node": {
-        "value": "topic_数学运算"
+        "value": "topic_核心方法"
       },
       "properties": {}
     },
     {
       "type": "BELONGS_TO_TOPIC",
       "start_node": {
-        "value": "question_某年级从A、B、C、D四个班招募96名志愿者，其中A班志愿者人数占总数的1/3，B班志愿者人数比C班"
+        "value": "kp_线段法"
       },
       "end_node": {
-        "value": "topic_数学运算"
+        "value": "topic_核心方法"
       },
       "properties": {}
     },
     {
       "type": "BELONGS_TO_TOPIC",
       "start_node": {
-        "value": "question_在一次团体操表演中，演员方阵的成员需要贴上红色、黄色和白色三种颜色之一的背贴。一位演员看到贴红色背贴"
+        "value": "question_001"
       },
       "end_node": {
-        "value": "topic_数学运算"
+        "value": "topic_核心方法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_001"
+      },
+      "end_node": {
+        "value": "kp_代入排除法"
       },
       "properties": {}
     },
     {
       "type": "BELONGS_TO_TOPIC",
       "start_node": {
-        "value": "question_农学院学生采集了甲、乙两个品种的水稻样本各若干份，其中36份为有效样本。已知乙品种采集样本30份，那"
+        "value": "question_002"
       },
       "end_node": {
-        "value": "topic_数学运算"
+        "value": "topic_核心方法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_002"
+      },
+      "end_node": {
+        "value": "kp_数字特性法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_003"
+      },
+      "end_node": {
+        "value": "topic_核心方法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_003"
+      },
+      "end_node": {
+        "value": "kp_数字特性法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_004"
+      },
+      "end_node": {
+        "value": "topic_核心方法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_004"
+      },
+      "end_node": {
+        "value": "kp_方程法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_005"
+      },
+      "end_node": {
+        "value": "topic_核心方法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_005"
+      },
+      "end_node": {
+        "value": "kp_方程法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_006"
+      },
+      "end_node": {
+        "value": "topic_核心方法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_006"
+      },
+      "end_node": {
+        "value": "kp_方程法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_007"
+      },
+      "end_node": {
+        "value": "topic_核心方法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_007"
+      },
+      "end_node": {
+        "value": "kp_方程法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_008"
+      },
+      "end_node": {
+        "value": "topic_核心方法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_008"
+      },
+      "end_node": {
+        "value": "kp_方程法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_009"
+      },
+      "end_node": {
+        "value": "topic_核心方法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_009"
+      },
+      "end_node": {
+        "value": "kp_方程法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_010"
+      },
+      "end_node": {
+        "value": "topic_核心方法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_010"
+      },
+      "end_node": {
+        "value": "kp_方程法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_011"
+      },
+      "end_node": {
+        "value": "topic_核心方法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_011"
+      },
+      "end_node": {
+        "value": "kp_赋值法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_012"
+      },
+      "end_node": {
+        "value": "topic_核心方法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_012"
+      },
+      "end_node": {
+        "value": "kp_赋值法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_013"
+      },
+      "end_node": {
+        "value": "topic_核心方法"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_013"
+      },
+      "end_node": {
+        "value": "kp_线段法"
       },
       "properties": {}
     }

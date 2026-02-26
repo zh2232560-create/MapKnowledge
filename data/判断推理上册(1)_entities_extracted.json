@@ -5,7 +5,7 @@
       "label": "Chapter",
       "properties": {
         "name": "判断推理",
-        "created_at": "2026-02-16T18:48:02.103807"
+        "created_at": "2026-02-18T21:13:36.007938"
       }
     },
     {
@@ -13,7 +13,7 @@
       "label": "Topic",
       "properties": {
         "name": "图形推理",
-        "created_at": "2026-02-16T18:48:02.103824"
+        "created_at": "2026-02-18T21:13:36.007938"
       }
     },
     {
@@ -21,11 +21,11 @@
       "label": "KnowledgePoint",
       "properties": {
         "name": "平移",
-        "content": "图形在平面上进行水平或垂直方向的移动，保持图形的形状和大小不变。",
-        "keywords": "[\"\\u5e73\\u79fb\", \"\\u4f4d\\u7f6e\\u89c4\\u5f8b\", \"\\u56fe\\u5f62\\u79fb\\u52a8\"]",
+        "content": "图形中的元素在不同位置上进行移动，形成一定的规律性。",
+        "keywords": "[\"\\u5e73\\u79fb\", \"\\u4f4d\\u7f6e\\u53d8\\u5316\", \"\\u89c4\\u5f8b\"]",
         "difficulty": 3,
         "importance": 4,
-        "created_at": "2026-02-16T18:48:02.103838"
+        "created_at": "2026-02-18T21:13:36.007938"
       }
     },
     {
@@ -33,11 +33,11 @@
       "label": "KnowledgePoint",
       "properties": {
         "name": "旋转、翻转",
-        "content": "图形在平面上进行旋转或翻转，保持图形的形状和大小不变。",
-        "keywords": "[\"\\u65cb\\u8f6c\", \"\\u7ffb\\u8f6c\", \"\\u4f4d\\u7f6e\\u89c4\\u5f8b\"]",
+        "content": "图形中的元素通过旋转或翻转形成一定的规律性。",
+        "keywords": "[\"\\u65cb\\u8f6c\", \"\\u7ffb\\u8f6c\", \"\\u89c4\\u5f8b\"]",
         "difficulty": 3,
         "importance": 4,
-        "created_at": "2026-02-16T18:48:02.103844"
+        "created_at": "2026-02-18T21:13:36.007938"
       }
     },
     {
@@ -45,11 +45,11 @@
       "label": "KnowledgePoint",
       "properties": {
         "name": "加减同异",
-        "content": "图形通过叠加、相减、相同部分保留或不同部分保留等方式形成新的图形。",
-        "keywords": "[\"\\u52a0\\u51cf\\u540c\\u5f02\", \"\\u6837\\u5f0f\\u89c4\\u5f8b\", \"\\u56fe\\u5f62\\u53e0\\u52a0\"]",
+        "content": "图形中的元素通过加法、减法、相同或不同的方式形成一定的规律性。",
+        "keywords": "[\"\\u52a0\\u6cd5\", \"\\u51cf\\u6cd5\", \"\\u540c\\u5f02\"]",
         "difficulty": 3,
         "importance": 4,
-        "created_at": "2026-02-16T18:48:02.103849"
+        "created_at": "2026-02-18T21:13:36.007938"
       }
     },
     {
@@ -57,11 +57,11 @@
       "label": "KnowledgePoint",
       "properties": {
         "name": "黑白运算",
-        "content": "图形中的黑白部分通过特定的运算规则（如黑+黑=白）形成新的图形。",
-        "keywords": "[\"\\u9ed1\\u767d\\u8fd0\\u7b97\", \"\\u6837\\u5f0f\\u89c4\\u5f8b\", \"\\u56fe\\u5f62\\u8fd0\\u7b97\"]",
+        "content": "图形中的黑白部分通过特定的运算规则形成一定的规律性。",
+        "keywords": "[\"\\u9ed1\\u767d\", \"\\u8fd0\\u7b97\", \"\\u89c4\\u5f8b\"]",
         "difficulty": 3,
         "importance": 4,
-        "created_at": "2026-02-16T18:48:02.103855"
+        "created_at": "2026-02-18T21:13:36.007938"
       }
     },
     {
@@ -69,22 +69,393 @@
       "label": "KnowledgePoint",
       "properties": {
         "name": "对称性",
-        "content": "图形具有轴对称或中心对称的特性。",
-        "keywords": "[\"\\u5bf9\\u79f0\\u6027\", \"\\u5c5e\\u6027\\u89c4\\u5f8b\", \"\\u8f74\\u5bf9\\u79f0\", \"\\u4e2d\\u5fc3\\u5bf9\\u79f0\"]",
+        "content": "图形中的元素通过轴对称或中心对称形成一定的规律性。",
+        "keywords": "[\"\\u5bf9\\u79f0\", \"\\u8f74\\u5bf9\\u79f0\", \"\\u4e2d\\u5fc3\\u5bf9\\u79f0\"]",
         "difficulty": 3,
         "importance": 4,
-        "created_at": "2026-02-16T18:48:02.103858"
+        "created_at": "2026-02-18T21:13:36.007938"
       }
     },
     {
-      "id": "question_从所给的四个选项中，选择最合适的一个填入问号处，使之呈现一定的规律性。",
+      "id": "kp_线的数量",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "线的数量",
+        "content": "图形中的线条数量形成一定的规律性。",
+        "keywords": "[\"\\u7ebf\\u6761\", \"\\u6570\\u91cf\", \"\\u89c4\\u5f8b\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "kp_面的数量",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "面的数量",
+        "content": "图形中的封闭区域数量形成一定的规律性。",
+        "keywords": "[\"\\u9762\", \"\\u6570\\u91cf\", \"\\u89c4\\u5f8b\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "kp_素的数量",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "素的数量",
+        "content": "图形中的独立元素数量形成一定的规律性。",
+        "keywords": "[\"\\u7d20\", \"\\u6570\\u91cf\", \"\\u89c4\\u5f8b\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "kp_角的数量",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "角的数量",
+        "content": "图形中的角度数量形成一定的规律性。",
+        "keywords": "[\"\\u89d2\", \"\\u6570\\u91cf\", \"\\u89c4\\u5f8b\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "kp_图形间关系",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "图形间关系",
+        "content": "图形之间的相对位置和关系形成一定的规律性。",
+        "keywords": "[\"\\u56fe\\u5f62\\u95f4\", \"\\u5173\\u7cfb\", \"\\u89c4\\u5f8b\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "kp_功能元素",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "功能元素",
+        "content": "图形中的某些元素具有特定的功能或作用，形成一定的规律性。",
+        "keywords": "[\"\\u529f\\u80fd\", \"\\u5143\\u7d20\", \"\\u89c4\\u5f8b\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "kp_空间重构",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "空间重构",
+        "content": "将平面展开图折叠成三维图形，形成一定的规律性。",
+        "keywords": "[\"\\u7a7a\\u95f4\", \"\\u91cd\\u6784\", \"\\u89c4\\u5f8b\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "kp_立体拼合、截面图、三视图与多面体折叠",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "立体拼合、截面图、三视图与多面体折叠",
+        "content": "涉及立体图形的拼合、截面图、三视图及多面体折叠等规律。",
+        "keywords": "[\"\\u7acb\\u4f53\", \"\\u62fc\\u5408\", \"\\u622a\\u9762\", \"\\u4e09\\u89c6\\u56fe\", \"\\u6298\\u53e0\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_001",
       "label": "Question",
       "properties": {
         "content": "从所给的四个选项中，选择最合适的一个填入问号处，使之呈现一定的规律性。",
         "answer": "A",
-        "analysis": "根据平移规律，图形依次向右平移一个单位。",
+        "analysis": "根据图形的平移规律，选择A选项。",
         "difficulty": 3,
-        "created_at": "2026-02-16T18:48:02.103860"
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_002",
+      "label": "Question",
+      "properties": {
+        "content": "从所给的四个选项中，选择最合适的一个填入问号处，使之呈现一定的规律性。",
+        "answer": "B",
+        "analysis": "根据图形的平移规律，选择B选项。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_003",
+      "label": "Question",
+      "properties": {
+        "content": "从所给的四个选项中，选择最合适的一个填入问号处，使之呈现一定的规律性。",
+        "answer": "C",
+        "analysis": "根据图形的平移规律，选择C选项。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_004",
+      "label": "Question",
+      "properties": {
+        "content": "从所给的四个选项中，选择最合适的一个填入问号处，使之呈现一定的规律性。",
+        "answer": "D",
+        "analysis": "根据图形的旋转、翻转规律，选择D选项。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_005",
+      "label": "Question",
+      "properties": {
+        "content": "从所给的四个选项中，选择最合适的一个填入问号处，使之呈现一定的规律性。",
+        "answer": "A",
+        "analysis": "根据图形的加减同异规律，选择A选项。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_006",
+      "label": "Question",
+      "properties": {
+        "content": "从所给的四个选项中，选择最合适的一个填入问号处，使之呈现一定的规律性。",
+        "answer": "B",
+        "analysis": "根据图形的黑白运算规律，选择B选项。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_007",
+      "label": "Question",
+      "properties": {
+        "content": "从所给的四个选项中，选择最合适的一个填入问号处，使之呈现一定的规律性。",
+        "answer": "C",
+        "analysis": "根据图形的对称性规律，选择C选项。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_008",
+      "label": "Question",
+      "properties": {
+        "content": "把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，分类正确的一项是：\n① ② ③ ④ ⑤ ⑥\nA. ①②⑥，③④⑤ B. ①②④，③⑤⑥\nC. ①③⑥，②④⑤ D. ①④⑤，②③⑥",
+        "answer": "A",
+        "analysis": "根据图形的对称性规律，选择A选项。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_009",
+      "label": "Question",
+      "properties": {
+        "content": "把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，分类正确的一项是：\n① ② ③\n④ ⑤ ⑥\nA. ①②④，③⑤⑥ B. ①③④，②⑤⑥\nC. ①②⑤，③④⑥ D. ①④⑤，②③⑥",
+        "answer": "B",
+        "analysis": "根据图形的线的数量规律，选择B选项。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_010",
+      "label": "Question",
+      "properties": {
+        "content": "从所给的四个选项中，选择最合适的一个填入问号处，使之呈现一定的规律性。",
+        "answer": "C",
+        "analysis": "根据图形的面的数量规律，选择C选项。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_011",
+      "label": "Question",
+      "properties": {
+        "content": "从所给的四个选项中，选择最合适的一个填入问号处，使之呈现一定的规律性。",
+        "answer": "A",
+        "analysis": "根据图形的素的数量规律，选择A选项。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_012",
+      "label": "Question",
+      "properties": {
+        "content": "把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，分类正确的一项是：\n① ② ③ ④ ⑤ ⑥\nA. ①③④，②⑤⑥ B. ①⑤⑥，②③④\nC. ①②⑥，③④⑤ D. ①④⑥，②③⑤",
+        "answer": "C",
+        "analysis": "根据图形的素的数量规律，选择C选项。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_013",
+      "label": "Question",
+      "properties": {
+        "content": "从所给的四个选项中，选择最合适的一个填入问号处，使之呈现一定的规律性。",
+        "answer": "B",
+        "analysis": "根据图形的素的数量规律，选择B选项。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_014",
+      "label": "Question",
+      "properties": {
+        "content": "从所给的四个选项中，选择最合适的一个填入问号处，使之呈现一定的规律性。",
+        "answer": "D",
+        "analysis": "根据图形的角的数量规律，选择D选项。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_015",
+      "label": "Question",
+      "properties": {
+        "content": "把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，分类正确的一项是：\n① ② ③ ④ ⑤ ⑥\nA. ①②③，④⑤⑥ B. ①②⑥，③④⑤\nC. ①④⑥，②③⑤ D. ①⑤⑥，②③④",
+        "answer": "C",
+        "analysis": "根据图形间的相对位置和关系规律，选择C选项。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_016",
+      "label": "Question",
+      "properties": {
+        "content": "从所给的四个选项中，选择最合适的一个填入问号处，使之呈现一定的规律性。",
+        "answer": "B",
+        "analysis": "根据图形间的相对位置和关系规律，选择B选项。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_017",
+      "label": "Question",
+      "properties": {
+        "content": "把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，分类正确的一项是：\n① ② ③\n④ ⑤ ⑥\nA. ①②③，④⑤⑥ B. ①⑤⑥，②③④\nC. ①③⑤，②④⑥ D. ①④⑤，②③⑥",
+        "answer": "C",
+        "analysis": "根据图形的功能元素规律，选择C选项。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_018",
+      "label": "Question",
+      "properties": {
+        "content": "以下除哪项外，都是同一正方体纸盒的外表面展开图？\nA B C D",
+        "answer": "A",
+        "analysis": "根据空间重构规律，选择A选项。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_019",
+      "label": "Question",
+      "properties": {
+        "content": "下图为4个黑色、8个白色正方体粘接成的长方体，则哪一项可能是其正确的外表面展开图？\nA B C D",
+        "answer": "B",
+        "analysis": "根据空间重构规律，选择B选项。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_020",
+      "label": "Question",
+      "properties": {
+        "content": "左图为正方体纸盒的外表面展开图，右边4个部分中，哪两个可以组合成同样正方体的外表面展开图？\n① ② ③ ④\nA. ①和② B. ③和④\nC. ①和④ D. ②和③",
+        "answer": "C",
+        "analysis": "根据空间重构规律，选择C选项。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_021",
+      "label": "Question",
+      "properties": {
+        "content": "已知5个完全相同的纸盒依次摆在一起，如下图所示，则与纸盒的面①相对的面为：\n① A B C D",
+        "answer": "D",
+        "analysis": "根据空间重构规律，选择D选项。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_022",
+      "label": "Question",
+      "properties": {
+        "content": "墙角堆码共计15个纸箱，左侧为堆码的效果图，堆码纸箱的俯视图可能是：\nA B C D",
+        "answer": "A",
+        "analysis": "根据立体拼合、截面图、三视图与多面体折叠规律，选择A选项。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_023",
+      "label": "Question",
+      "properties": {
+        "content": "左边为15个白色和3个灰色正方体组合而成多面体的正、反两面直观图，其可以由①、②和③三个多面体组合而成，则哪一项能填入问号处？\n① ② ③\nA B C D",
+        "answer": "B",
+        "analysis": "根据立体拼合、截面图、三视图与多面体折叠规律，选择B选项。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_024",
+      "label": "Question",
+      "properties": {
+        "content": "以下为4个由若干棱长为1的正方体拼成的多面体，将它们在3×3×4空间内进行拼接，不可能拼成以下四个选项中的哪一个多面体？\nA B C D",
+        "answer": "C",
+        "analysis": "根据立体拼合、截面图、三视图与多面体折叠规律，选择C选项。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_025",
+      "label": "Question",
+      "properties": {
+        "content": "左图为一个实心长方体、一个挖孔长方体和一个四面体组合成的多面体，右边哪一个不可能是其视图？\nA B C D",
+        "answer": "D",
+        "analysis": "根据立体拼合、截面图、三视图与多面体折叠规律，选择D选项。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T21:13:36.007938"
+      }
+    },
+    {
+      "id": "question_026",
+      "label": "Question",
+      "properties": {
+        "content": "左边为给定的多面体，现用经P、Q、R三点的平面对其进行切割，则哪个选项是其切面？\nR\nA B C D\nP Q",
+        "answer": "A",
+        "analysis": "根据立体拼合、截面图、三视图与多面体折叠规律，选择A选项。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T21:13:36.007938"
       }
     }
   ],
@@ -152,10 +523,600 @@
     {
       "type": "BELONGS_TO_TOPIC",
       "start_node": {
-        "value": "question_从所给的四个选项中，选择最合适的一个填入问号处，使之呈现一定的规律性。"
+        "value": "kp_线的数量"
       },
       "end_node": {
         "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_面的数量"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_素的数量"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_角的数量"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_图形间关系"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_功能元素"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_空间重构"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_立体拼合、截面图、三视图与多面体折叠"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_001"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_001"
+      },
+      "end_node": {
+        "value": "kp_平移"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_002"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_002"
+      },
+      "end_node": {
+        "value": "kp_平移"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_003"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_003"
+      },
+      "end_node": {
+        "value": "kp_平移"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_004"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_004"
+      },
+      "end_node": {
+        "value": "kp_旋转、翻转"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_005"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_005"
+      },
+      "end_node": {
+        "value": "kp_加减同异"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_006"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_006"
+      },
+      "end_node": {
+        "value": "kp_黑白运算"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_007"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_007"
+      },
+      "end_node": {
+        "value": "kp_对称性"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_008"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_008"
+      },
+      "end_node": {
+        "value": "kp_对称性"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_009"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_009"
+      },
+      "end_node": {
+        "value": "kp_线的数量"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_010"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_010"
+      },
+      "end_node": {
+        "value": "kp_面的数量"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_011"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_011"
+      },
+      "end_node": {
+        "value": "kp_素的数量"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_012"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_012"
+      },
+      "end_node": {
+        "value": "kp_素的数量"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_013"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_013"
+      },
+      "end_node": {
+        "value": "kp_素的数量"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_014"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_014"
+      },
+      "end_node": {
+        "value": "kp_角的数量"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_015"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_015"
+      },
+      "end_node": {
+        "value": "kp_图形间关系"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_016"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_016"
+      },
+      "end_node": {
+        "value": "kp_图形间关系"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_017"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_017"
+      },
+      "end_node": {
+        "value": "kp_功能元素"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_018"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_018"
+      },
+      "end_node": {
+        "value": "kp_空间重构"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_019"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_019"
+      },
+      "end_node": {
+        "value": "kp_空间重构"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_020"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_020"
+      },
+      "end_node": {
+        "value": "kp_空间重构"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_021"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_021"
+      },
+      "end_node": {
+        "value": "kp_空间重构"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_022"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_022"
+      },
+      "end_node": {
+        "value": "kp_立体拼合、截面图、三视图与多面体折叠"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_023"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_023"
+      },
+      "end_node": {
+        "value": "kp_立体拼合、截面图、三视图与多面体折叠"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_024"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_024"
+      },
+      "end_node": {
+        "value": "kp_立体拼合、截面图、三视图与多面体折叠"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_025"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_025"
+      },
+      "end_node": {
+        "value": "kp_立体拼合、截面图、三视图与多面体折叠"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_026"
+      },
+      "end_node": {
+        "value": "topic_图形推理"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_026"
+      },
+      "end_node": {
+        "value": "kp_立体拼合、截面图、三视图与多面体折叠"
       },
       "properties": {}
     }

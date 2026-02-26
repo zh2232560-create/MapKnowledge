@@ -1,11 +1,11 @@
 {
   "nodes": [
     {
-      "id": "chapter_第一章_文字资料",
+      "id": "chapter_资料分析",
       "label": "Chapter",
       "properties": {
-        "name": "第一章 文字资料",
-        "created_at": "2026-02-16T18:56:25.404742"
+        "name": "资料分析",
+        "created_at": "2026-02-18T19:59:58.602283"
       }
     },
     {
@@ -13,64 +13,159 @@
       "label": "Topic",
       "properties": {
         "name": "文字资料分析",
-        "created_at": "2026-02-16T18:56:25.404753"
+        "created_at": "2026-02-18T19:59:58.602290"
       }
     },
     {
-      "id": "kp_数据同比增长计算",
+      "id": "kp_机动车注册与转让登记",
       "label": "KnowledgePoint",
       "properties": {
-        "name": "数据同比增长计算",
-        "content": "通过给定的数据，计算某项指标的同比增长率。例如，2023年上半年全国新注册登记机动车1688万辆，同比增长1.9%。",
-        "keywords": "[\"\\u540c\\u6bd4\\u589e\\u957f\", \"\\u6570\\u636e\\u8ba1\\u7b97\", \"\\u767e\\u5206\\u6bd4\"]",
+        "name": "机动车注册与转让登记",
+        "content": "2023年上半年，全国新注册登记机动车1688万辆，同比增长1.9%。新注册登记汽车1175万辆，同比增长5.8%。其中，新注册登记载客汽车1034万辆，同比增长5.6%；新注册登记载货汽车133万辆，同比增长8.1%。新注册登记新能源汽车313万辆，同比增长41.6%。2023年上半年，全国办理机动车转让登记业务1134万辆。其中，办理汽车转让登记业务1057万辆，同比增长5.3%；异地直接办理交易登记二手小客车157万辆。",
+        "keywords": "[\"\\u673a\\u52a8\\u8f66\", \"\\u6ce8\\u518c\\u767b\\u8bb0\", \"\\u8f6c\\u8ba9\\u767b\\u8bb0\"]",
         "difficulty": 3,
         "importance": 4,
-        "created_at": "2026-02-16T18:56:25.404774"
+        "created_at": "2026-02-18T19:59:58.602302"
       }
     },
     {
-      "id": "kp_数据占比计算",
+      "id": "kp_机动车保有量与驾驶人",
       "label": "KnowledgePoint",
       "properties": {
-        "name": "数据占比计算",
-        "content": "通过给定的数据，计算某项指标在整体中的占比。例如，2023年6月末新能源汽车保有量占汽车保有量的比重。",
-        "keywords": "[\"\\u6570\\u636e\\u5360\\u6bd4\", \"\\u767e\\u5206\\u6bd4\", \"\\u8ba1\\u7b97\"]",
+        "name": "机动车保有量与驾驶人",
+        "content": "2023年6月末，全国机动车保有量4.26亿辆，同比增长4.9%。其中，汽车3.28亿辆，同比增长5.8%；新能源汽车1620万辆，同比增长61.8%。新能源汽车中，纯电动汽车保有量1259万辆，同比增长55.4%。2023年6月末，全国机动车驾驶人为5.13亿人，同比增长4.3%。其中，汽车驾驶人4.75亿人，同比增长4.6%。2023年上半年，全国新领证驾驶人1191万人，同比增长8.0%。",
+        "keywords": "[\"\\u673a\\u52a8\\u8f66\\u4fdd\\u6709\\u91cf\", \"\\u9a7e\\u9a76\\u4eba\", \"\\u65b0\\u80fd\\u6e90\\u6c7d\\u8f66\"]",
         "difficulty": 3,
         "importance": 4,
-        "created_at": "2026-02-16T18:56:25.404783"
+        "created_at": "2026-02-18T19:59:58.602306"
       }
     },
     {
-      "id": "question_2023年上半年，我国办理汽车转让登记业务同比增加：\nA._不到40万辆_B._40多万辆\nC._5",
+      "id": "question_001",
       "label": "Question",
       "properties": {
         "content": "2023年上半年，我国办理汽车转让登记业务同比增加：\nA. 不到40万辆 B. 40多万辆\nC. 50多万辆 D. 60万辆以上",
         "answer": "B",
-        "analysis": "根据题干信息，2023年上半年全国办理机动车转让登记业务1134万辆，其中办理汽车转让登记业务1057万辆，同比增长5.3%。计算得出同比增加约55万辆。",
+        "analysis": "根据资料，2023年上半年全国办理汽车转让登记业务1057万辆，同比增长5.3%，计算增量为1057 * 5.3% ≈ 56万辆。",
         "difficulty": 3,
-        "created_at": "2026-02-16T18:56:25.404787"
+        "created_at": "2026-02-18T19:59:58.602309"
       }
     },
     {
-      "id": "question_2023年上半年，全国新注册登记非汽车类机动车数量比上年同期：\nA._增长了不到2%_B._增长了2",
+      "id": "question_002",
       "label": "Question",
       "properties": {
         "content": "2023年上半年，全国新注册登记非汽车类机动车数量比上年同期：\nA. 增长了不到2% B. 增长了2%以上\nC. 减少了不到2% D. 减少了2%以上",
         "answer": "C",
-        "analysis": "根据题干信息，2023年上半年全国新注册登记机动车1688万辆，同比增长1.9%。新注册登记汽车1175万辆，同比增长5.8%。因此，非汽车类机动车数量减少了。",
+        "analysis": "根据资料，2023年上半年全国新注册登记机动车1688万辆，同比增长1.9%。新注册登记汽车1175万辆，同比增长5.8%。非汽车类机动车数量为1688 - 1175 = 513万辆，同比增长1.9% - 5.8% = -3.9%。",
         "difficulty": 3,
-        "created_at": "2026-02-16T18:56:25.404791"
+        "created_at": "2026-02-18T19:59:58.602311"
       }
     },
     {
-      "id": "question_2023年6月末，新能源汽车保有量占汽车保有量的比重，比当年上半年新注册登记新能源汽车数量占新注册登",
+      "id": "question_003",
       "label": "Question",
       "properties": {
         "content": "2023年6月末，新能源汽车保有量占汽车保有量的比重，比当年上半年新注册登记新能源汽车数量占新注册登记汽车数量的比重约低多少个百分点？\nA. 12 B. 17\nC. 22 D. 27",
         "answer": "C",
-        "analysis": "根据题干信息，2023年6月末新能源汽车保有量为1620万辆，占汽车保有量3.28亿辆的比重约为4.9%。而上半年新注册登记新能源汽车313万辆，占新注册登记汽车1175万辆的比重约为26.6%。两者相差约21.7个百分点。",
+        "analysis": "根据资料，2023年6月末新能源汽车保有量1620万辆，汽车保有量3.28亿辆，占比为1620 / 32800 * 100% ≈ 4.94%。2023年上半年新注册登记新能源汽车313万辆，新注册登记汽车1175万辆，占比为313 / 1175 * 100% ≈ 26.64%。差值为26.64% - 4.94% = 21.7%。",
         "difficulty": 3,
-        "created_at": "2026-02-16T18:56:25.404795"
+        "created_at": "2026-02-18T19:59:58.602313"
+      }
+    },
+    {
+      "id": "question_004",
+      "label": "Question",
+      "properties": {
+        "content": "以下饼图中，最能准确反映2023年6月末全国汽车保有量超过100万辆的城市中，保有量在100～200万辆之间的城市（白色）、保有量在200～300万辆之间的城市（斜线）和保有量超过300万辆的城市（黑色）个数占比关系的是：\nA. B.\nC. D.",
+        "answer": "A",
+        "analysis": "根据资料，2023年6月末全国有88个城市汽车保有量超过100万辆，其中41个城市超过200万辆，24个城市超过300万辆，3个城市超过500万辆，2个城市超过600万辆。因此，保有量在100～200万辆之间的城市为88 - 41 = 47个，保有量在200～300万辆之间的城市为41 - 24 = 17个，保有量超过300万辆的城市为24个。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T19:59:58.602314"
+      }
+    },
+    {
+      "id": "topic_表格资料分析",
+      "label": "Topic",
+      "properties": {
+        "name": "表格资料分析",
+        "created_at": "2026-02-18T19:59:58.602316"
+      }
+    },
+    {
+      "id": "kp_Z省律师与基层法律服务数据",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "Z省律师与基层法律服务数据",
+        "content": "2020—2023年Z省律师、基层法律服务工作数据包括律师事务所总数、律师人数、法律顾问数、村（社区）法律顾问数、律师办理法律业务数、基层法律服务所总数、基层法律服务工作者人数、基层法律服务工作者办理法律业务数等。",
+        "keywords": "[\"Z\\u7701\", \"\\u5f8b\\u5e08\", \"\\u57fa\\u5c42\\u6cd5\\u5f8b\\u670d\\u52a1\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-18T19:59:58.602319"
+      }
+    },
+    {
+      "id": "question_005",
+      "label": "Question",
+      "properties": {
+        "content": "2023年，Z省含村、社区在内的法律顾问数约是2020年的多少倍？\nA. 1.2 B. 1.4\nC. 1.6 D. 1.8",
+        "answer": "C",
+        "analysis": "根据资料，2023年Z省含村、社区在内的法律顾问数为111811 + 23652 = 135463家，2020年为72739 + 26153 = 98892家。倍数为135463 / 98892 ≈ 1.37。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T19:59:58.602321"
+      }
+    },
+    {
+      "id": "question_006",
+      "label": "Question",
+      "properties": {
+        "content": "2020—2023年，Z省律师办理法律业务数之和约是同期基层法律服务工作者办理法律业务数之和的多少倍？\nA. 12 B. 15\nC. 18 D. 21",
+        "answer": "C",
+        "analysis": "根据资料，2020—2023年Z省律师办理法律业务数之和为68.36 + 76.43 + 81.24 + 93.55 = 319.58万件，基层法律服务工作者办理法律业务数之和为6.65 + 6.99 + 6.88 + 6.40 = 26.92万件。倍数为319.58 / 26.92 ≈ 11.87。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T19:59:58.602322"
+      }
+    },
+    {
+      "id": "topic_图形资料分析",
+      "label": "Topic",
+      "properties": {
+        "name": "图形资料分析",
+        "created_at": "2026-02-18T19:59:58.602323"
+      }
+    },
+    {
+      "id": "kp_天然气月度进口量与产量",
+      "label": "KnowledgePoint",
+      "properties": {
+        "name": "天然气月度进口量与产量",
+        "content": "2022—2023年我国天然气月度进口量和产量的数据，包括每月的进口量和产量。",
+        "keywords": "[\"\\u5929\\u7136\\u6c14\", \"\\u8fdb\\u53e3\\u91cf\", \"\\u4ea7\\u91cf\"]",
+        "difficulty": 3,
+        "importance": 4,
+        "created_at": "2026-02-18T19:59:58.602326"
+      }
+    },
+    {
+      "id": "question_007",
+      "label": "Question",
+      "properties": {
+        "content": "2023年3—12月，我国天然气月度进口量同比增量超过200万吨的月份有几个？\nA. 1 B. 2\nC. 3 D. 4",
+        "answer": "B",
+        "analysis": "根据图表，2023年3—12月，我国天然气月度进口量同比增量超过200万吨的月份有2个。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T19:59:58.602327"
+      }
+    },
+    {
+      "id": "question_008",
+      "label": "Question",
+      "properties": {
+        "content": "2022年，我国天然气第四季度进口量比第一季度多约多少万吨？\nA. 585 B. 650\nC. 755 D. 1240",
+        "answer": "C",
+        "analysis": "根据图表，2022年第四季度天然气进口量约为1039 + 1031 + 1086 = 3156万吨，第一季度进口量约为1268 + 1112 + 1064 = 3444万吨。差值为3444 - 3156 = 288万吨。",
+        "difficulty": 3,
+        "created_at": "2026-02-18T19:59:58.602328"
       }
     }
   ],
@@ -81,14 +176,14 @@
         "value": "topic_文字资料分析"
       },
       "end_node": {
-        "value": "chapter_第一章_文字资料"
+        "value": "chapter_资料分析"
       },
       "properties": {}
     },
     {
       "type": "BELONGS_TO_TOPIC",
       "start_node": {
-        "value": "kp_数据同比增长计算"
+        "value": "kp_机动车注册与转让登记"
       },
       "end_node": {
         "value": "topic_文字资料分析"
@@ -98,7 +193,7 @@
     {
       "type": "BELONGS_TO_TOPIC",
       "start_node": {
-        "value": "kp_数据占比计算"
+        "value": "kp_机动车保有量与驾驶人"
       },
       "end_node": {
         "value": "topic_文字资料分析"
@@ -108,7 +203,7 @@
     {
       "type": "BELONGS_TO_TOPIC",
       "start_node": {
-        "value": "question_2023年上半年，我国办理汽车转让登记业务同比增加：\nA._不到40万辆_B._40多万辆\nC._5"
+        "value": "question_001"
       },
       "end_node": {
         "value": "topic_文字资料分析"
@@ -116,9 +211,19 @@
       "properties": {}
     },
     {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_001"
+      },
+      "end_node": {
+        "value": "kp_机动车注册与转让登记"
+      },
+      "properties": {}
+    },
+    {
       "type": "BELONGS_TO_TOPIC",
       "start_node": {
-        "value": "question_2023年上半年，全国新注册登记非汽车类机动车数量比上年同期：\nA._增长了不到2%_B._增长了2"
+        "value": "question_002"
       },
       "end_node": {
         "value": "topic_文字资料分析"
@@ -126,12 +231,172 @@
       "properties": {}
     },
     {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_002"
+      },
+      "end_node": {
+        "value": "kp_机动车注册与转让登记"
+      },
+      "properties": {}
+    },
+    {
       "type": "BELONGS_TO_TOPIC",
       "start_node": {
-        "value": "question_2023年6月末，新能源汽车保有量占汽车保有量的比重，比当年上半年新注册登记新能源汽车数量占新注册登"
+        "value": "question_003"
       },
       "end_node": {
         "value": "topic_文字资料分析"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_003"
+      },
+      "end_node": {
+        "value": "kp_机动车保有量与驾驶人"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_004"
+      },
+      "end_node": {
+        "value": "topic_文字资料分析"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_004"
+      },
+      "end_node": {
+        "value": "kp_机动车保有量与驾驶人"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_CHAPTER",
+      "start_node": {
+        "value": "topic_表格资料分析"
+      },
+      "end_node": {
+        "value": "chapter_资料分析"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_Z省律师与基层法律服务数据"
+      },
+      "end_node": {
+        "value": "topic_表格资料分析"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_005"
+      },
+      "end_node": {
+        "value": "topic_表格资料分析"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_005"
+      },
+      "end_node": {
+        "value": "kp_Z省律师与基层法律服务数据"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_006"
+      },
+      "end_node": {
+        "value": "topic_表格资料分析"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_006"
+      },
+      "end_node": {
+        "value": "kp_Z省律师与基层法律服务数据"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_CHAPTER",
+      "start_node": {
+        "value": "topic_图形资料分析"
+      },
+      "end_node": {
+        "value": "chapter_资料分析"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "kp_天然气月度进口量与产量"
+      },
+      "end_node": {
+        "value": "topic_图形资料分析"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_007"
+      },
+      "end_node": {
+        "value": "topic_图形资料分析"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_007"
+      },
+      "end_node": {
+        "value": "kp_天然气月度进口量与产量"
+      },
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO_TOPIC",
+      "start_node": {
+        "value": "question_008"
+      },
+      "end_node": {
+        "value": "topic_图形资料分析"
+      },
+      "properties": {}
+    },
+    {
+      "type": "RELATED_TO_KNOWLEDGE_POINT",
+      "start_node": {
+        "value": "question_008"
+      },
+      "end_node": {
+        "value": "kp_天然气月度进口量与产量"
       },
       "properties": {}
     }

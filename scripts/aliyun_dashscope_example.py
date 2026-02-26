@@ -100,7 +100,7 @@ def document_classification_example():
 }"""
     
     response = client.chat.completions.create(
-        model="qwen-max",
+        model="qwen3.5-plus",
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt}
@@ -130,7 +130,7 @@ def summarization_example():
     摘要应该保留原文的主要信息，字数在100-200字之间。"""
     
     response = client.chat.completions.create(
-        model="qwen-max",
+        model="qwen3.5-plus",
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": f"请对以下文本进行摘要：\n\n{long_text}"}
@@ -156,7 +156,7 @@ def knowledge_qa_example():
     
     for question in questions:
         response = client.chat.completions.create(
-            model="qwen-max",
+            model="qwen3.5-plus",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": question}
@@ -184,7 +184,7 @@ def batch_processing_example():
     results = []
     for i, text in enumerate(texts, 1):
         response = client.chat.completions.create(
-            model="qwen-max",
+            model="qwen3.5-plus",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": f"请从以下文本中提取关键词：\n{text}"}
